@@ -150,10 +150,12 @@ export default class Bazaar extends Document<DocumentProps> {
             }}
           />
           <script
+            async
             type="text/javascript"
             src="//static.klaviyo.com/onsite/js/klaviyo.js?company_id=RbXbnB"
-          ></script>
+          />
            <script
+            async
             id='klaviyo-sdk'
             dangerouslySetInnerHTML={{
               __html: `

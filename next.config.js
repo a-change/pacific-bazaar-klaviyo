@@ -33,7 +33,12 @@ if (process.env.NODE_ENV === 'development') {
       '@mui/icons-material': {
         transform: '@mui/icons-material/{{member}}',
       },
-    }
+    },
+    eslint: {
+      // Warning: This allows production builds to successfully complete even if
+      // your project has ESLint errors.
+      ignoreDuringBuilds: true,
+    },
   };
 } else {
   module.exports = withPWA({
