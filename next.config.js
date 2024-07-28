@@ -1,4 +1,4 @@
-const { i18n } = require("./next-i18next.config");
+const {i18n} = require('./next-i18next.config');
 const runtimeCaching = require('next-pwa/cache');
 
 const withPWA = require('next-pwa')({
@@ -20,14 +20,39 @@ if (process.env.NODE_ENV === 'development') {
           protocol: 'https',
           hostname: '*.bloomreach.io',
           port: '',
-          pathname: '/delivery/resources/**'
-        }
-      ]
+          pathname: '/delivery/resources/**',
+        },
+      ],
     },
     publicRuntimeConfig: {
       // Available on both server and client
-      theme: "DEFAULT",
-      currency: "USD",
+      theme: 'DEFAULT',
+      currency: 'USD',
+    },
+    modularizeImports: {
+      '@mui/icons-material': {
+        transform: '@mui/icons-material/{{member}}',
+      },
+    },
+  };
+} else {
+  module.exports = withPWA({
+    i18n,
+    devIndicators: {},
+    images: {
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: '*.bloomreach.io',
+          port: '',
+          pathname: '/delivery/resources/content/gallery/**',
+        },
+      ],
+    },
+    publicRuntimeConfig: {
+      // Available on both server and client
+      theme: 'DEFAULT',
+      currency: 'USD',
     },
     modularizeImports: {
       '@mui/icons-material': {
@@ -46,31 +71,7 @@ if (process.env.NODE_ENV === 'development') {
       // !! WARN !!
       ignoreBuildErrors: true,
     },
-  };
-} else {
-  module.exports = withPWA({
-    i18n,
-    devIndicators: {},
-    images: {
-      remotePatterns: [
-        {
-          protocol: 'https',
-          hostname: '*.bloomreach.io',
-          port: '',
-          pathname: '/delivery/resources/content/gallery/**'
-        }
-      ]
-    },
-    publicRuntimeConfig: {
-      // Available on both server and client
-      theme: "DEFAULT",
-      currency: "USD",
-    },
-    modularizeImports: {
-      '@mui/icons-material': {
-        transform: '@mui/icons-material/{{member}}',
-      },
-    }
+
   });
 }
 
