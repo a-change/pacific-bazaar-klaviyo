@@ -26,13 +26,13 @@ function getCookie(name) {
 function klaviyoIdentify() {
   const klaviyo = (window as any)?.klaviyo;
 
-  klaviyo && klaviyo.identify({
-    'email': 'nikolay@exponea.horse',
-    'first_name': 'Nikolay',
-    'last_name': 'Semyonov'
-  }, function (res) {
-    console.log("[trackViewItem] Klaviyo identify response result:", res);
-  });
+  // klaviyo && klaviyo.identify({
+  //   'email': 'nikolay@exponea.horse',
+  //   'first_name': 'Nikolay',
+  //   'last_name': 'Semyonov'
+  // }, function (res) {
+  //   console.log("[trackViewItem] Klaviyo identify response result:", res);
+  // });
 }
 
 function getKlaviyoToExponeaItemNamingMapping() {
