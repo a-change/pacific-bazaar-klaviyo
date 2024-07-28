@@ -14,6 +14,15 @@ if (process.env.NODE_ENV === 'development') {
   module.exports = {
     i18n,
     devIndicators: {},
+    async redirects() {
+      return [
+        {
+          source: '/',
+          destination: '/klaviyo-test',
+          permanent: true,
+        },
+      ]
+    },
     images: {
       remotePatterns: [
         {
@@ -36,9 +45,18 @@ if (process.env.NODE_ENV === 'development') {
     },
   };
 } else {
-  module.exports = withPWA({
+  module.exports = {
     i18n,
     devIndicators: {},
+    async redirects() {
+      return [
+        {
+          source: '/',
+          destination: '/klaviyo-test',
+          permanent: true,
+        },
+      ]
+    },
     images: {
       remotePatterns: [
         {
@@ -72,7 +90,7 @@ if (process.env.NODE_ENV === 'development') {
       ignoreBuildErrors: true,
     },
 
-  });
+  };
 }
 
 /*
