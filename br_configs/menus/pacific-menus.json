@@ -1,0 +1,316 @@
+[
+  {
+    "name": "footer",
+    "items": [
+      {
+        "name": "Help",
+        "items": [
+          {
+            "name": "Shipping",
+            "link": "sale/christmas-favorites"
+          },
+          {
+            "name": "Returns"
+          },
+          {
+            "name": "FAQs"
+          }
+        ]
+      },
+      {
+        "name": "Explore",
+        "items": [
+          {
+            "name": "Blog",
+            "link": "blog"
+          },
+          {
+            "name": "Gift Cards"
+          },
+          {
+            "name": "About Us"
+          }
+        ]
+      },
+      {
+        "name": "Account",
+        "items": [
+          {
+            "name": "Register_x002f_Login"
+          }
+        ]
+      }
+    ],
+    "properties": {}
+  },
+  {
+    "name": "logo",
+    "items": [
+      {
+        "name": "Home",
+        "link": "home",
+        "properties": {
+          "icon": "",
+          "image": "/content/gallery/pacific-home/branding/pacific_home_logo.png",
+          "usertype": "anonymous",
+          "display": "image"
+        }
+      }
+    ],
+    "properties": {
+      "image": "",
+      "display": "text",
+      "icon": "",
+      "usertype": "anonymous"
+    }
+  },
+  {
+    "name": "main",
+    "items": [
+      {
+        "name": "Furniture",
+        "properties": {
+          "Related Banner (Title of desired Banner document)": "New sofa collection"
+        },
+        "items": [
+          {
+            "name": "All Furniture",
+            "link": "categories/furniture/furniture"
+          },
+          {
+            "name": "All Chairs By Material",
+            "link": "all-chairs-by-material"
+          },
+          {
+            "name": "Living Room Furniture",
+            "link": "categories/furniture/living-room-furniture"
+          },
+          {
+            "name": "Dining Room Furniture",
+            "link": "categories/furniture/dining-room-furniture"
+          },
+          {
+            "name": "Bedroom Furniture",
+            "link": "categories/furniture/bedroom-furniture"
+          },
+          {
+            "name": "Home Office Furniture",
+            "link": "categories/furniture/home-office-furniture"
+          }
+        ]
+      },
+      {
+        "name": "Décor & Pillows",
+        "properties": {
+          "Related Banner (Title of desired Banner document)": "New pillow collection"
+        },
+        "items": [
+          {
+            "name": "All Décor & Pillows",
+            "link": "categories/decor-and-pillows/decor-and-pillows"
+          },
+          {
+            "name": "Wall Art & Décor",
+            "link": "categories/decor-and-pillows/wall-art-and-decor"
+          },
+          {
+            "name": "Pillows & Throws",
+            "link": "categories/decor-and-pillows/pillows-and-throws"
+          },
+          {
+            "name": "Candles & Candle Holders",
+            "link": "categories/decor-and-pillows/candles-and-candle-holders"
+          },
+          {
+            "name": "Baskets",
+            "link": "categories/decor-and-pillows/baskets"
+          }
+        ]
+      },
+      {
+        "name": "Rugs & Curtains",
+        "properties": {
+          "Related Banner (Title of desired Banner document)": "Curtain sale"
+        },
+        "items": [
+          {
+            "name": "All Rugs & Curtains",
+            "link": "categories/rugs-and-curtains/rugs-and-curtains"
+          },
+          {
+            "name": "All Rugs by Material",
+            "link": "all-rugs-by-material"
+          },
+          {
+            "name": "Area Rugs",
+            "link": "categories/rugs-and-curtains/area-rugs"
+          },
+          {
+            "name": "One Of A Kind Rugs",
+            "link": "categories/rugs-and-curtains/one-of-a-kind-rugs"
+          },
+          {
+            "name": "Curtains",
+            "link": "categories/rugs-and-curtains/curtains"
+          },
+          {
+            "name": "Doormats",
+            "link": "categories/rugs-and-curtains/doormats"
+          }
+        ]
+      },
+      {
+        "name": "Lighting",
+        "properties": {
+          "Related Banner (Title of desired Banner document)": "Shine a modern light"
+        },
+        "items": [
+          {
+            "name": "All Lightings",
+            "link": "categories/lighting/lighting"
+          },
+          {
+            "name": "Table Lamps",
+            "link": "categories/lighting/table-lamps"
+          },
+          {
+            "name": "Floor Lamps",
+            "link": "categories/lighting/floor-lamps"
+          },
+          {
+            "name": "Accent Lighting",
+            "link": "categories/lighting/accent-lighting"
+          },
+          {
+            "name": "Pendants & Chandeliers",
+            "link": "categories/lighting/pendants-and-chandeliers"
+          }
+        ]
+      },
+      {
+        "name": "Outdoor",
+        "link": "categories/outdoor/outdoor"
+      },
+      {
+        "name": "Interior Design",
+        "properties": {
+          "Related Banner (Title of desired Banner document)": "Better in real life"
+        },
+        "items": [
+          {
+            "name": "All Interior Designs",
+            "link": "articles"
+          },
+          {
+            "name": "How to design your living room",
+            "link": "articles/featured/how-to-design-the-perfect-living-room"
+          },
+          {
+            "name": "Design Trends for This Year",
+            "link": "articles/featured/home-decor-trends-2020"
+          },
+          {
+            "name": "Hearth at Home",
+            "link": "articles/featured/hearth-at-home"
+          },
+          {
+            "name": "Must-See Styles for Your Bedroom",
+            "link": "articles/featured/bedroom-decorating-ideas"
+          }
+        ]
+      },
+      {
+        "name": "Sale",
+        "properties": {
+          "Related Banner (Title of desired Banner document)": "Gifts for that special someone"
+        },
+        "items": [
+          {
+            "name": "All Sales",
+            "link": "sale"
+          },
+          {
+            "name": "New Industrial Collection",
+            "link": "collections/new-industrial-collection"
+          },
+          {
+            "name": "New Vintage Collection",
+            "link": "collections/new-vintage-collection"
+          },
+          {
+            "name": "5 Must-see Industrial Decors",
+            "link": "collections/5-must-see-industrial-decors"
+          },
+          {
+            "name": "5 Must-see Vintage Furnitures",
+            "link": "collections/5-must-see-vintage-furnitures"
+          },
+          {
+            "name": "Industrial Furniture",
+            "link": "industrial-furniture"
+          },
+          {
+            "name": "Vintage Furniture",
+            "link": "vintage-furniture"
+          },
+          {
+            "name": "Demo Campaign",
+            "link": "/campaign?pid=10360&sku=433870&&fn=Maria"
+          }
+        ]
+      }
+    ],
+    "properties": {}
+  },
+  {
+    "name": "social",
+    "items": [
+      {
+        "name": "facebook",
+        "link": "https://www.facebook.com/bloomreach",
+        "properties": {
+          "icon": "fab:facebook-f",
+          "image": "",
+          "usertype": "anonymous",
+          "display": "icon"
+        }
+      },
+      {
+        "name": "youtube",
+        "link": "https://www.youtube.com/user/BloomReachInc",
+        "properties": {
+          "icon": "fab:youtube",
+          "image": "",
+          "usertype": "anonymous",
+          "display": "icon"
+        }
+      },
+      {
+        "name": "twitter",
+        "link": "https://twitter.com/bloomreach_tm",
+        "properties": {
+          "icon": "fab:twitter",
+          "image": "",
+          "usertype": "anonymous",
+          "display": "icon"
+        }
+      },
+      {
+        "name": "linkedin",
+        "link": "https://www.linkedin.com/company/bloomreach",
+        "properties": {
+          "icon": "fab:linkedin",
+          "image": "",
+          "usertype": "anonymous",
+          "display": "icon"
+        }
+      }
+    ],
+    "properties": {
+      "image": "",
+      "display": "text",
+      "icon": "",
+      "usertype": "anonymous"
+    }
+  }
+]

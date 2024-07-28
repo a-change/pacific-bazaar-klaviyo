@@ -1,0 +1,31 @@
+{
+  "sorting": {
+    "rating": "descending"
+  },
+  "display": {
+    "rating0to2": {
+      "type": "icon",
+      "icon": "star",
+      "color": "gold",
+      "number": 2
+    },
+    "rating2to3": {
+      "type": "icon",
+      "icon": "star",
+      "color": "gold",
+      "number": 3
+    },
+    "rating3to4": {
+      "type": "icon",
+      "icon": "star",
+      "color": "gold",
+      "number": 4
+    },
+    "rating4to5": {
+      "type": "icon",
+      "icon": "star",
+      "color": "gold",
+      "number": 5
+    }
+  }
+}

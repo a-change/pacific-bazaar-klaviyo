@@ -1,0 +1,206 @@
+[
+  {
+    "name": "_any_",
+    "layout": null,
+    "pageTitle": null,
+    "relativeContentPath": "pages/${1}",
+    "referenceId": null,
+    "parameters": {},
+    "documentRequired": true,
+    "doctypePages": {},
+    "items": []
+  },
+  {
+    "name": "api",
+    "layout": null,
+    "pageTitle": null,
+    "relativeContentPath": "pages/page-not-found",
+    "referenceId": null,
+    "parameters": {},
+    "documentRequired": false,
+    "doctypePages": {},
+    "items": [
+      {
+        "name": "search",
+        "layout": "search-banner",
+        "pageTitle": "Search Banner",
+        "relativeContentPath": null,
+        "referenceId": null,
+        "parameters": {},
+        "documentRequired": false,
+        "doctypePages": {},
+        "items": []
+      }
+    ]
+  },
+  {
+    "name": "articles",
+    "layout": null,
+    "pageTitle": "Articles",
+    "relativeContentPath": "pages/article-list",
+    "referenceId": null,
+    "parameters": {},
+    "documentRequired": false,
+    "doctypePages": {},
+    "items": [
+      {
+        "name": "_any_",
+        "layout": "article-detail",
+        "pageTitle": null,
+        "relativeContentPath": "articles/${1}",
+        "referenceId": null,
+        "parameters": {},
+        "documentRequired": false,
+        "doctypePages": {},
+        "items": []
+      }
+    ]
+  },
+  {
+    "name": "authors",
+    "layout": null,
+    "pageTitle": "Authors",
+    "relativeContentPath": "pages/page-not-found",
+    "referenceId": null,
+    "parameters": {},
+    "documentRequired": false,
+    "doctypePages": {},
+    "items": [
+      {
+        "name": "_any_",
+        "layout": "author",
+        "pageTitle": null,
+        "relativeContentPath": "authors/${1}",
+        "referenceId": null,
+        "parameters": {},
+        "documentRequired": false,
+        "doctypePages": {},
+        "items": []
+      }
+    ]
+  },
+  {
+    "name": "campaign",
+    "layout": null,
+    "pageTitle": "Demo Campaign",
+    "relativeContentPath": "pages/campaign",
+    "referenceId": null,
+    "parameters": {},
+    "documentRequired": false,
+    "doctypePages": {},
+    "items": []
+  },
+  {
+    "name": "categories",
+    "layout": null,
+    "pageTitle": null,
+    "relativeContentPath": "pages/page-not-found",
+    "referenceId": null,
+    "parameters": {},
+    "documentRequired": false,
+    "doctypePages": {},
+    "items": [
+      {
+        "name": "_default_",
+        "layout": "category-detail",
+        "pageTitle": "Category Detail",
+        "relativeContentPath": "categories/${1}",
+        "referenceId": null,
+        "parameters": {},
+        "documentRequired": false,
+        "doctypePages": {},
+        "items": []
+      }
+    ]
+  },
+  {
+    "name": "home",
+    "layout": null,
+    "pageTitle": null,
+    "relativeContentPath": "pages/home-page",
+    "referenceId": null,
+    "parameters": {},
+    "documentRequired": true,
+    "doctypePages": {},
+    "items": []
+  },
+  {
+    "name": "orders",
+    "layout": null,
+    "pageTitle": "Order History",
+    "relativeContentPath": "pages/order-history",
+    "referenceId": null,
+    "parameters": {},
+    "documentRequired": false,
+    "doctypePages": {},
+    "items": [
+      {
+        "name": "_any_",
+        "layout": "order-detail",
+        "pageTitle": "Order Detail",
+        "relativeContentPath": null,
+        "referenceId": null,
+        "parameters": {},
+        "documentRequired": false,
+        "doctypePages": {},
+        "items": []
+      }
+    ]
+  },
+  {
+    "name": "products",
+    "layout": null,
+    "pageTitle": null,
+    "relativeContentPath": "pages/page-not-found",
+    "referenceId": null,
+    "parameters": {},
+    "documentRequired": false,
+    "doctypePages": {},
+    "items": [
+      {
+        "name": "_any_",
+        "layout": "product-detail",
+        "pageTitle": "Product Detail",
+        "relativeContentPath": "pages/products/${1}",
+        "referenceId": null,
+        "parameters": {},
+        "documentRequired": false,
+        "doctypePages": {},
+        "items": []
+      }
+    ]
+  },
+  {
+    "name": "profile",
+    "layout": null,
+    "pageTitle": "User Profile",
+    "relativeContentPath": "pages/user-profile",
+    "referenceId": null,
+    "parameters": {},
+    "documentRequired": false,
+    "doctypePages": {},
+    "items": []
+  },
+  {
+    "name": "sale",
+    "layout": null,
+    "pageTitle": "Sale",
+    "relativeContentPath": "pages/sale",
+    "referenceId": null,
+    "parameters": {},
+    "documentRequired": false,
+    "doctypePages": {},
+    "items": []
+  },
+  {
+    "name": "search",
+    "layout": null,
+    "pageTitle": "Search Results",
+    "relativeContentPath": "pages/search",
+    "referenceId": null,
+    "parameters": {},
+    "documentRequired": false,
+    "doctypePages": {},
+    "items": []
+  }
+]

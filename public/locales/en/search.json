@@ -1,0 +1,22 @@
+{
+  "products": "products",
+  "suggestions": "suggestions",
+  "content": "content",
+  "search-keyword-not-provided": "Search keyword not provided!",
+  "related-search": "Thematic Links",
+  "category-not-provided": "Category not provided!",
+  "discovery-api-request-response": "Discovery API Request/Response",
+  "request": "Request",
+  "response": "Response",
+  "endpoint": "Endpoint",
+  "search-parameters": "Search Parameters",
+  "category": "category",
+  "search": "search",
+  "widget": "widget",
+  "search-for": "Searching for...",
+  "no-products-found": "No Products Found!",
+  "start-over": "Start Over",
+  "no-group": "Results Without Grouping Specified",
+  "group-by-not-provided": "Group by not provided!",
+  "feature-product": "Feature Product"
+}

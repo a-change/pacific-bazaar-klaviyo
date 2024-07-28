@@ -1,0 +1,260 @@
+{
+  "with-all": {
+    "top": {
+      "bgColor": "error.light",
+      "borderColor": "error.dark",
+      "border": 1,
+      "color": "error.contrastText",
+      "elevation": 5,
+      "maxWidth": false,
+      "pt": 1,
+      "pr": 1,
+      "pl": 1,
+      "pb": 1
+    },
+    "left": {
+      "bgColor": "warning.light",
+      "borderColor": "warning.dark",
+      "border": 1,
+      "color": "warning.contrastText",
+      "elevation": 5,
+      "maxWidth": "lg",
+      "pt": 1,
+      "pr": 1,
+      "pl": 1,
+      "pb": 1
+    },
+    "main": {
+      "bgColor": "info.light",
+      "borderColor": "info.dark",
+      "border": 1,
+      "color": "info.contrastText",
+      "elevation": 5,
+      "maxWidth": "lg",
+      "pt": 1,
+      "pr": 1,
+      "pl": 1,
+      "pb": 1
+    },
+    "right": {
+      "bgColor": "warning.light",
+      "borderColor": "warning.dark",
+      "border": 1,
+      "color": "warning.contrastText",
+      "elevation": 5,
+      "maxWidth": "lg",
+      "pt": 1,
+      "pr": 1,
+      "pl": 1,
+      "pb": 1
+    },
+    "bottom": {
+      "bgColor": "success.light",
+      "borderColor": "success.dark",
+      "border": 1,
+      "color": "success.contrastText",
+      "elevation": 5,
+      "maxWidth": false,
+      "pt": 1,
+      "pr": 1,
+      "pl": 1,
+      "pb": 1
+    }
+  },
+  "with-backgrounds": {
+    "top": {
+      "bgColor": "error.main",
+      "color": "error.contrastText"
+    },
+    "left": {
+      "bgColor": "warning.main",
+      "color": "warning.contrastText"
+    },
+    "main": {
+      "bgColor": "info.main",
+      "color": "info.contrastText"
+    },
+    "right": {
+      "bgColor": "warning.main",
+      "color": "warning.contrastText"
+    },
+    "bottom": {
+      "bgColor": "success.main",
+      "color": "success.contrastText"
+    }
+  },
+  "with-borders": {
+    "top": {
+      "borderColor": "primary.main",
+      "border": 1
+    },
+    "left": {
+      "borderColor": "primary.main",
+      "border": 1
+    },
+    "main": {
+      "borderColor": "primary.main",
+      "border": 1
+    },
+    "right": {
+      "borderColor": "primary.main",
+      "border": 1
+    },
+    "bottom": {
+      "borderColor": "primary.main",
+      "border": 1
+    }
+  },
+  "with-borders-and-padding": {
+    "top": {
+      "borderColor": "grey.400",
+      "border": 1,
+      "pt": 2,
+      "pr": 2,
+      "pl": 2,
+      "pb": 2
+    },
+    "left": {
+      "borderColor": "grey.400",
+      "border": 1,
+      "pt": 2,
+      "pr": 2,
+      "pl": 2,
+      "pb": 2
+    },
+    "main": {
+      "borderColor": "grey.400",
+      "border": 0,
+      "pt": 2,
+      "pr": 2,
+      "pl": 2,
+      "pb": 2
+    },
+    "right": {
+      "borderColor": "grey.400",
+      "border": 1,
+      "pt": 2,
+      "pr": 2,
+      "pl": 2,
+      "pb": 2
+    },
+    "bottom": {
+      "borderColor": "grey.400",
+      "border": 1,
+      "pt": 2,
+      "pr": 2,
+      "pl": 2,
+      "pb": 2
+    }
+  },
+  "with-defaults": {
+    "top": {
+      "maxWidth": false
+    },
+    "left": {
+      "maxWidth": "lg"
+    },
+    "main": {
+      "maxWidth": "lg"
+    },
+    "right": {
+      "maxWidth": "lg"
+    },
+    "bottom": {
+      "maxWidth": false
+    }
+  },
+  "with-elevation": {
+    "top": {
+      "elevation": 5
+    },
+    "left": {
+      "elevation": 5
+    },
+    "main": {
+      "elevation": 5
+    },
+    "right": {
+      "elevation": 5
+    },
+    "bottom": {
+      "elevation": 5
+    }
+  },
+  "with-colored-asides": {
+    "top": {
+      "borderColor": "grey.400",
+      "border": 1,
+      "pt": 2,
+      "pr": 2,
+      "pl": 2,
+      "pb": 2
+    },
+    "left": {
+      "bgColor": "primary.light",
+      "borderColor": "grey.400",
+      "border": 1,
+      "pt": 2,
+      "pr": 2,
+      "pl": 2,
+      "pb": 2
+    },
+    "main": {
+      "borderColor": "grey.400",
+      "border": 1,
+      "pt": 2,
+      "pr": 2,
+      "pl": 2,
+      "pb": 30
+    },
+    "right": {
+      "bgColor": "primary.light",
+      "borderColor": "grey.400",
+      "border": 1,
+      "pt": 2,
+      "pr": 2,
+      "pl": 2,
+      "pb": 2
+    },
+    "bottom": {
+      "borderColor": "grey.400",
+      "border": 1,
+      "pt": 2,
+      "pr": 2,
+      "pl": 2,
+      "pb": 2
+    }
+  },
+  "with-padding": {
+    "top": {
+      "pt": 0,
+      "pr": 0,
+      "pl": 0,
+      "pb": 2
+    },
+    "left": {
+      "pt": 1,
+      "pr": 1,
+      "pl": 0,
+      "pb": 1
+    },
+    "main": {
+      "pt": 1,
+      "pr": 1,
+      "pl": 1,
+      "pb": 1
+    },
+    "right": {
+      "pt": 1,
+      "pr": 0,
+      "pl": 1,
+      "pb": 1
+    },
+    "bottom": {
+      "pt": 2,
+      "pr": 0,
+      "pl": 0,
+      "pb": 0
+    }
+  }
+}

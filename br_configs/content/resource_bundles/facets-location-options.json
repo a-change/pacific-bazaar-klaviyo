@@ -1,0 +1,31 @@
+{
+  "name": "facets-location-options",
+  "displayName": "facets-location-options",
+  "id": "options.facets.location",
+  "path": "/content/documents/administration/component-configuration/shared/facets-location-options",
+  "keys": [
+    {
+      "name": "left",
+      "description": null
+    },
+    {
+      "name": "right",
+      "description": null
+    }
+  ],
+  "valueSets": [
+    {
+      "messages": [
+        {
+          "key": "left",
+          "value": "left"
+        },
+        {
+          "key": "right",
+          "value": "right"
+        }
+      ],
+      "name": "DEFAULT"
+    }
+  ]
+}

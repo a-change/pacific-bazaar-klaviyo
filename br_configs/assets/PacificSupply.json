@@ -1,0 +1,26 @@
+{
+  "palette": {
+    "mode": "light",
+    "primary": {
+      "main": "#6200ee"
+    },
+    "secondary": {
+      "main": "#03dac6"
+    },
+    "error": {
+      "main": "#de4437"
+    },
+    "warning": {
+      "main": "#ffc107"
+    },
+    "info": {
+      "main": "#00dffc"
+    },
+    "success": {
+      "main": "#00c9a7"
+    }
+  },
+  "typography": {
+    "fontFamily": "Roboto"
+  }
+}

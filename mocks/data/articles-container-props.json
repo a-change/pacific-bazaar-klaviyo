@@ -1,0 +1,44 @@
+{
+    "alignContent": "start",
+    "alignItems": "stretch",
+    "columns": {
+        "xs": 4,
+        "sm": 8,
+        "md": 12,
+        "lg": 12,
+        "xl": 16
+    },
+    "columnGap": {
+        "xs": 1,
+        "sm": 1,
+        "md": 2,
+        "lg": 2,
+        "xl": 2
+    },
+    "display": "grid",
+    "gridAutoColumns": "1fr",
+    "gridAutoFlow": "row",
+    "gridTemplateAreas": {
+        "xs": "\"m m m m\"",
+        "sm": "\"m m m m m m m m\"",
+        "md": "\"m m m m m m m m m m m m\"",
+        "lg": "\"m m m m m m m m m m m m\"",
+        "xl": "\"m m m m m m m m m m m m m m m m\""
+    },
+    "gridTemplateColumns": {
+        "xs": "repeat(4, 1fr)",
+        "sm": "repeat(8, 1fr)",
+        "md": "repeat(12, 1fr)",
+        "lg": "repeat(12, 1fr)",
+        "xl": "repeat(16, 1fr)"
+    },
+    "justifyContent": "start",
+    "justifyItems": "stretch",
+    "rowGap": {
+        "xs": 1,
+        "sm": 1,
+        "md": 2,
+        "lg": 2,
+        "xl": 2
+    }
+}

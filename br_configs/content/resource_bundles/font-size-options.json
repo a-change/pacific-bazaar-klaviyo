@@ -1,0 +1,119 @@
+{
+  "name": "font-size-options",
+  "displayName": "font-size-options",
+  "id": "options.font.size",
+  "path": "/content/documents/administration/component-configuration/shared/font-size-options",
+  "keys": [
+    {
+      "name": "body1",
+      "description": null
+    },
+    {
+      "name": "body2",
+      "description": null
+    },
+    {
+      "name": "button",
+      "description": null
+    },
+    {
+      "name": "caption",
+      "description": null
+    },
+    {
+      "name": "h1",
+      "description": null
+    },
+    {
+      "name": "h2",
+      "description": null
+    },
+    {
+      "name": "h3",
+      "description": null
+    },
+    {
+      "name": "h4",
+      "description": null
+    },
+    {
+      "name": "h5",
+      "description": null
+    },
+    {
+      "name": "h6",
+      "description": null
+    },
+    {
+      "name": "overline",
+      "description": null
+    },
+    {
+      "name": "subtitle1",
+      "description": null
+    },
+    {
+      "name": "subtitle2",
+      "description": null
+    }
+  ],
+  "valueSets": [
+    {
+      "messages": [
+        {
+          "key": "body1",
+          "value": "Body 1"
+        },
+        {
+          "key": "body2",
+          "value": "Body 2"
+        },
+        {
+          "key": "button",
+          "value": "Button"
+        },
+        {
+          "key": "caption",
+          "value": "Caption"
+        },
+        {
+          "key": "h1",
+          "value": "Headline 1"
+        },
+        {
+          "key": "h2",
+          "value": "Headline 2"
+        },
+        {
+          "key": "h3",
+          "value": "Headline 3"
+        },
+        {
+          "key": "h4",
+          "value": "Headline 4"
+        },
+        {
+          "key": "h5",
+          "value": "Headline 5"
+        },
+        {
+          "key": "h6",
+          "value": "Headline 6"
+        },
+        {
+          "key": "overline",
+          "value": "Overline"
+        },
+        {
+          "key": "subtitle1",
+          "value": "Subtitle 1"
+        },
+        {
+          "key": "subtitle2",
+          "value": "Subtitle 2"
+        }
+      ],
+      "name": "DEFAULT"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "pacific-bazaar",
+    "name": "Pacific Bazaar",
+    "cdnHost": null,
+    "contentRootPath": "/content/documents/pacific-bazaar",
+    "defaultDevice": "default",
+    "devices": [],
+    "externalPreviewEnabled": false,
+    "externalPreviewToken": null,
+    "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAAAoCAMAAABjLOxVAAAARVBMVEXGWWbsyMxUU4CEYYA8O25IR3fsyM3ZkZr///+yIjRgX4mLiqltbJJ5eJuenbfS0t60s8fCwtKqqcCDK0vq6vCkc4qlj6b25Sz+AAABOklEQVRIx+3UzW7bMBREYZX5buNckvqr2/d/1C4cO+4mAAUByaJnccDVAORoNPmUX28jTEotlDmJOYn6oTYcFteCJbE0LB1bx16HwxCJ6IQO7aH1MsIE+4p9Qb0p6Nc4EpaEFCGF+0nI8bC8NPLaKddK3DQTy+plGkKUUDyp3BVxpIB9RV0fz/XQeFjIpsgUSntS4c+PESaxBLEVYk1sia1h7cMFRC1CDaEW9ERvQm9HvrN5R92Dvj3ebCsMt4na0SrajJzvp/Ghz4V4UmJPzDk+9C3uQ98a9oa53Yb++3WECXoN2kNZy7sOFzBvqBv6hrY4NvT4+OuE9j500vA185KUS3tsvBJLJbb5wJyCiHA7/avBsJdPGbzm5UTODXs9kentRM4NO5Xv2+bPE/nf5le3eWrY923zzLC/Pt1U/L5cuCEAAAAASUVORK5CYII=",
+    "linkurlPrefix": null,
+    "locale": "en_US",
+    "parameters": {
+      "channelConfigFile": "/content/documents/administration/channel-configurations/home",
+      "channelThemeFile": "/content/assets/themse/bloomreach.json",
+      "defaultConnector": "commercetools",
+      "externalLocale": "en_US",
+      "graphql_baseurl": "https://graphql-commerce.bloomreach.io",
+      "spaUrl": "http://localhost:3000/"
+    },
+    "remoteHostProtection": false,
+    "responseHeaders": null
+  }
+]

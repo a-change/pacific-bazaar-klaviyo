@@ -1,0 +1,175 @@
+{
+  "name": "bgcolor-options",
+  "displayName": "bgcolor-options",
+  "id": "options.bgcolor",
+  "path": "/content/documents/administration/component-configuration/shared/bgcolor-options",
+  "keys": [
+    {
+      "name": "background.default",
+      "description": null
+    },
+    {
+      "name": "background.paper",
+      "description": null
+    },
+    {
+      "name": "error.dark",
+      "description": null
+    },
+    {
+      "name": "error.light",
+      "description": null
+    },
+    {
+      "name": "error.main",
+      "description": null
+    },
+    {
+      "name": "info.dark",
+      "description": null
+    },
+    {
+      "name": "info.light",
+      "description": null
+    },
+    {
+      "name": "info.main",
+      "description": null
+    },
+    {
+      "name": "primary.dark",
+      "description": null
+    },
+    {
+      "name": "primary.light",
+      "description": null
+    },
+    {
+      "name": "primary.main",
+      "description": null
+    },
+    {
+      "name": "secondary.dark",
+      "description": null
+    },
+    {
+      "name": "secondary.light",
+      "description": null
+    },
+    {
+      "name": "secondary.main",
+      "description": null
+    },
+    {
+      "name": "success.dark",
+      "description": null
+    },
+    {
+      "name": "success.light",
+      "description": null
+    },
+    {
+      "name": "success.main",
+      "description": null
+    },
+    {
+      "name": "warning.dark",
+      "description": null
+    },
+    {
+      "name": "warning.light",
+      "description": null
+    },
+    {
+      "name": "warning.main",
+      "description": null
+    }
+  ],
+  "valueSets": [
+    {
+      "messages": [
+        {
+          "key": "background.default",
+          "value": "background [default]"
+        },
+        {
+          "key": "background.paper",
+          "value": "background [paper]"
+        },
+        {
+          "key": "error.dark",
+          "value": "error [dark]"
+        },
+        {
+          "key": "error.light",
+          "value": "error [light]"
+        },
+        {
+          "key": "error.main",
+          "value": "error [main]"
+        },
+        {
+          "key": "info.dark",
+          "value": "info [dark]"
+        },
+        {
+          "key": "info.light",
+          "value": "info [light]"
+        },
+        {
+          "key": "info.main",
+          "value": "info [main]"
+        },
+        {
+          "key": "primary.dark",
+          "value": "primary [dark]"
+        },
+        {
+          "key": "primary.light",
+          "value": "primary [light]"
+        },
+        {
+          "key": "primary.main",
+          "value": "primary [main]"
+        },
+        {
+          "key": "secondary.dark",
+          "value": "secondary [dark]"
+        },
+        {
+          "key": "secondary.light",
+          "value": "secondary [light]"
+        },
+        {
+          "key": "secondary.main",
+          "value": "secondary [main]"
+        },
+        {
+          "key": "success.dark",
+          "value": "success [dark]"
+        },
+        {
+          "key": "success.light",
+          "value": "success [light]"
+        },
+        {
+          "key": "success.main",
+          "value": "success [main]"
+        },
+        {
+          "key": "warning.dark",
+          "value": "warning [dark]"
+        },
+        {
+          "key": "warning.light",
+          "value": "warning [light]"
+        },
+        {
+          "key": "warning.main",
+          "value": "warning [main]"
+        }
+      ],
+      "name": "DEFAULT"
+    }
+  ]
+}

@@ -1,0 +1,1485 @@
+[
+  {
+    "name": "banner",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "Banner",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "content",
+        "type": "RichText",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Content",
+          "hint": "",
+          "layoutColumn": 1,
+          "ckEditorAppendedJson": null,
+          "ckEditorOverlayedJson": null,
+          "imagepickerBasePath": null,
+          "imagepickerType": "images",
+          "imagepickerNodetypes": null,
+          "imagepickerLastVisitedEnabled": null,
+          "imagepickerLastVisitedGroupKey": "ckeditor-imagepicker",
+          "imagepickerLastVisitedNodetypes": [
+            "gallery"
+          ],
+          "imagepickerPreferredImageVariant": "original",
+          "linkpickerBasePath": null,
+          "linkpickerType": "documents",
+          "linkpickerNodetypes": null,
+          "linkpickerLastVisitedEnabled": null,
+          "linkpickerLastVisitedGroupKey": "ckeditor-linkpicker",
+          "linkpickerLastVisitedNodetypes": [
+            "folder"
+          ],
+          "linkPickerLanguageContextAware": null,
+          "linkPickerOpenInNewWindowEnabled": true,
+          "includeImageVariants": null,
+          "excludeImageVariants": null
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "image",
+        "type": "Link",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Image",
+          "hint": "",
+          "layoutColumn": 1,
+          "uploadEnabled": true,
+          "displayType": "ImageLink",
+          "lookupFolderTypes": null,
+          "lastVisitedKey": "gallerypicker-imagelink",
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      },
+      {
+        "name": "cta",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "CTA",
+          "hint": "",
+          "layoutColumn": 2,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "link",
+        "type": "Link",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Link",
+          "hint": "",
+          "layoutColumn": 2,
+          "lookupFolderPath": null,
+          "lastVisitedNodetypes": null,
+          "languageContextAware": true,
+          "pickerType": null,
+          "displayType": "AnyLink",
+          "lookupFolderTypes": null,
+          "lastVisitedKey": null,
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2020-10-01T17:00:00+01:00",
+      "updatedBy": "admin",
+      "updatedAt": "2020-10-01T17:00:00+01:00",
+      "id": "banner"
+    }
+  },
+  {
+    "name": "bannercarousel",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Banner carousel",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "banners",
+        "type": "FieldGroup",
+        "required": true,
+        "multiple": true,
+        "presentation": {
+          "caption": "Banners",
+          "hint": "",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "image": [
+                "/"
+              ],
+              "cta": [
+                ""
+              ],
+              "link": [
+                "/"
+              ],
+              "title": [
+                ""
+              ],
+              "content": [
+                ""
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "bannercompound"
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-07-12T23:58:23.209-04:00",
+      "updatedBy": "admin",
+      "updatedAt": "2021-07-12T23:58:42.052-04:00",
+      "id": "bannercarousel"
+    }
+  },
+  {
+    "name": "bannercompound",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Banner field group",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "content",
+        "type": "RichText",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Content",
+          "hint": "",
+          "layoutColumn": 1,
+          "ckEditorAppendedJson": null,
+          "ckEditorOverlayedJson": null,
+          "imagepickerBasePath": null,
+          "imagepickerType": "images",
+          "imagepickerNodetypes": null,
+          "imagepickerLastVisitedEnabled": null,
+          "imagepickerLastVisitedGroupKey": "ckeditor-imagepicker",
+          "imagepickerLastVisitedNodetypes": [
+            "gallery"
+          ],
+          "imagepickerPreferredImageVariant": "original",
+          "linkpickerBasePath": null,
+          "linkpickerType": "documents",
+          "linkpickerNodetypes": null,
+          "linkpickerLastVisitedEnabled": null,
+          "linkpickerLastVisitedGroupKey": "ckeditor-linkpicker",
+          "linkpickerLastVisitedNodetypes": [
+            "folder"
+          ],
+          "linkPickerLanguageContextAware": null,
+          "linkPickerOpenInNewWindowEnabled": true,
+          "includeImageVariants": null,
+          "excludeImageVariants": null
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "image",
+        "type": "Link",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Image",
+          "hint": "",
+          "layoutColumn": 1,
+          "uploadEnabled": true,
+          "displayType": "ImageLink",
+          "lookupFolderTypes": null,
+          "lastVisitedKey": "gallerypicker-imagelink",
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      },
+      {
+        "name": "cta",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "CTA",
+          "hint": "",
+          "layoutColumn": 2,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "link",
+        "type": "Link",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Link",
+          "hint": "",
+          "layoutColumn": 2,
+          "lookupFolderPath": null,
+          "lastVisitedNodetypes": null,
+          "languageContextAware": true,
+          "pickerType": null,
+          "displayType": "AnyLink",
+          "lookupFolderTypes": null,
+          "lastVisitedKey": null,
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2020-10-01T17:00:00+01:00",
+      "updatedBy": "admin",
+      "updatedAt": "2020-10-01T17:00:00+01:00",
+      "id": "bannercompound"
+    }
+  },
+  {
+    "name": "bannercta",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Banner CTA",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "content",
+        "type": "RichText",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Content",
+          "hint": "",
+          "layoutColumn": 1,
+          "ckEditorAppendedJson": null,
+          "ckEditorOverlayedJson": null,
+          "imagepickerBasePath": null,
+          "imagepickerType": "images",
+          "imagepickerNodetypes": null,
+          "imagepickerLastVisitedEnabled": null,
+          "imagepickerLastVisitedGroupKey": "ckeditor-imagepicker",
+          "imagepickerLastVisitedNodetypes": [
+            "gallery"
+          ],
+          "imagepickerPreferredImageVariant": "original",
+          "linkpickerBasePath": null,
+          "linkpickerType": "documents",
+          "linkpickerNodetypes": null,
+          "linkpickerLastVisitedEnabled": null,
+          "linkpickerLastVisitedGroupKey": "ckeditor-linkpicker",
+          "linkpickerLastVisitedNodetypes": [
+            "folder"
+          ],
+          "linkPickerLanguageContextAware": null,
+          "linkPickerOpenInNewWindowEnabled": true,
+          "includeImageVariants": null,
+          "excludeImageVariants": null
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "cta",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "CTA",
+          "hint": "",
+          "layoutColumn": 2,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "link",
+        "type": "Link",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Link",
+          "hint": "",
+          "layoutColumn": 2,
+          "lookupFolderPath": null,
+          "lastVisitedNodetypes": null,
+          "languageContextAware": true,
+          "pickerType": null,
+          "displayType": "AnyLink",
+          "lookupFolderTypes": null,
+          "lastVisitedKey": null,
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-07-12T23:58:23.209-04:00",
+      "updatedBy": "admin",
+      "updatedAt": "2021-07-12T23:58:42.052-04:00",
+      "id": "bannercta"
+    }
+  },
+  {
+    "name": "bannergallery",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Banner gallery",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "banners",
+        "type": "FieldGroup",
+        "required": true,
+        "multiple": true,
+        "presentation": {
+          "caption": "Banners",
+          "hint": "",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "image": [
+                "/"
+              ],
+              "cta": [
+                ""
+              ],
+              "link": [
+                "/"
+              ],
+              "title": [
+                ""
+              ],
+              "content": [
+                ""
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "bannercompound"
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-07-12T23:58:23.209-04:00",
+      "updatedBy": "admin",
+      "updatedAt": "2021-07-12T23:58:42.052-04:00",
+      "id": "bannergallery"
+    }
+  },
+  {
+    "name": "CategoryHighlight",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Category highlight",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "connectorid",
+        "type": "SelectableString",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Commerce connector",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Dropdown",
+          "sortOrder": null,
+          "sortBy": null,
+          "showDefault": null
+        },
+        "validations": {
+          "inResourceBundle": null,
+          "inValues": [
+            {
+              "key": "brsm",
+              "label": "Bloomreach Discovery"
+            },
+            {
+              "key": "commercetools",
+              "label": "commercetools"
+            },
+            {
+              "key": "sap",
+              "label": "SAP"
+            },
+            {
+              "key": "shopify",
+              "label": "Shopify"
+            }
+          ]
+        },
+        "defaultValue": []
+      },
+      {
+        "name": "CommerceCategoryCompound",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": true,
+        "presentation": {
+          "caption": "Category",
+          "hint": "",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "categoryid": [
+                ""
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "CommerceCategoryCompound"
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-08-02T11:49:26.655+02:00",
+      "updatedBy": "admin",
+      "updatedAt": "2021-08-02T11:52:57.441+02:00",
+      "id": "CategoryHighlight"
+    }
+  },
+  {
+    "name": "CommerceCategoryCompound",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Commerce category",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "categoryid",
+        "type": "OpenUiExtension",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Category",
+          "hint": "",
+          "layoutColumn": 1,
+          "extensionType": "commerceCategoryPicker"
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2020-12-09T01:13:05.507+01:00",
+      "updatedBy": "admin",
+      "updatedAt": "2020-12-09T01:13:05.507+01:00",
+      "id": "CommerceCategoryCompound"
+    }
+  },
+  {
+    "name": "CommerceProductCompound",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Commerce product",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "productid",
+        "type": "OpenUiExtension",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Product",
+          "hint": "",
+          "layoutColumn": 1,
+          "extensionType": "commerceProductPicker"
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "variantid",
+        "type": "OpenUiExtension",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Product Variant",
+          "hint": "",
+          "layoutColumn": 1,
+          "extensionType": "commerceProductVariantPicker"
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2020-12-09T01:13:05.507+01:00",
+      "updatedBy": "admin",
+      "updatedAt": "2020-12-09T01:13:05.507+01:00",
+      "id": "CommerceProductCompound"
+    }
+  },
+  {
+    "name": "content",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "Content",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "introduction",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Introduction",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Text"
+        },
+        "validations": {
+          "maxRow": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "content",
+        "type": "RichText",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Content",
+          "hint": "",
+          "layoutColumn": 1,
+          "ckEditorAppendedJson": null,
+          "ckEditorOverlayedJson": null,
+          "imagepickerBasePath": null,
+          "imagepickerType": "images",
+          "imagepickerNodetypes": null,
+          "imagepickerLastVisitedEnabled": null,
+          "imagepickerLastVisitedGroupKey": "ckeditor-imagepicker",
+          "imagepickerLastVisitedNodetypes": [
+            "gallery"
+          ],
+          "imagepickerPreferredImageVariant": "original",
+          "linkpickerBasePath": null,
+          "linkpickerType": "documents",
+          "linkpickerNodetypes": null,
+          "linkpickerLastVisitedEnabled": null,
+          "linkpickerLastVisitedGroupKey": "ckeditor-linkpicker",
+          "linkpickerLastVisitedNodetypes": [
+            "folder"
+          ],
+          "linkPickerLanguageContextAware": null,
+          "linkPickerOpenInNewWindowEnabled": true,
+          "includeImageVariants": null,
+          "excludeImageVariants": null
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "image",
+        "type": "Link",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Image",
+          "hint": "",
+          "layoutColumn": 2,
+          "uploadEnabled": true,
+          "displayType": "ImageLink",
+          "lookupFolderTypes": null,
+          "lastVisitedKey": "gallerypicker-imagelink",
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      },
+      {
+        "name": "date",
+        "type": "Date",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Publication Date",
+          "hint": "",
+          "layoutColumn": 2,
+          "timeSelectable": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "2021-01-01T12:00:00Z"
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2020-10-01T17:00:00+01:00",
+      "updatedBy": "admin",
+      "updatedAt": "2020-10-01T17:00:00+01:00",
+      "id": "content"
+    }
+  },
+  {
+    "name": "pathways",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Pathways & Recommendations",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "WidgetCompound",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Widget",
+          "hint": "",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "widgetalgo": [
+                ""
+              ],
+              "widgetid": [
+                ""
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "WidgetCompound"
+      },
+      {
+        "name": "ProductCompound",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": true,
+        "presentation": {
+          "caption": "Product reference",
+          "hint": "",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "productid": [
+                ""
+              ],
+              "variantid": [
+                ""
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "CommerceProductCompound"
+      },
+      {
+        "name": "CategoryCompound",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Category reference",
+          "hint": "",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "categoryid": [
+                ""
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "CommerceCategoryCompound"
+      },
+      {
+        "name": "keyword",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Keyword",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-07-16T16:24:00.329+02:00",
+      "updatedBy": "admin",
+      "updatedAt": "2021-07-19T15:26:29.224+02:00",
+      "id": "pathways"
+    }
+  },
+  {
+    "name": "productgrid",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Product grid",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "searchtype",
+        "type": "SelectableString",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Type",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Dropdown",
+          "sortOrder": null,
+          "sortBy": null,
+          "showDefault": null
+        },
+        "validations": {
+          "inResourceBundle": null,
+          "inValues": [
+            {
+              "key": "category",
+              "label": "Category"
+            },
+            {
+              "key": "search",
+              "label": "Search"
+            }
+          ]
+        },
+        "defaultValue": []
+      },
+      {
+        "name": "query",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Search term",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "category",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Category",
+          "hint": "",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "categoryid": [
+                ""
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "CommerceCategoryCompound"
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-08-02T16:40:31.55-04:00",
+      "updatedBy": "admin",
+      "updatedAt": "2021-08-02T16:49:16.971-04:00",
+      "id": "productgrid"
+    }
+  },
+  {
+    "name": "ProductHighlight",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Product highlight",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "connectorid",
+        "type": "SelectableString",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Commerce connector",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Dropdown",
+          "sortOrder": null,
+          "sortBy": null,
+          "showDefault": null
+        },
+        "validations": {
+          "inResourceBundle": null,
+          "inValues": [
+            {
+              "key": "brsm",
+              "label": "Bloomreach Discovery"
+            },
+            {
+              "key": "commercetools",
+              "label": "commercetools"
+            },
+            {
+              "key": "sap",
+              "label": "SAP"
+            },
+            {
+              "key": "shopify",
+              "label": "Shopify"
+            }
+          ]
+        },
+        "defaultValue": []
+      },
+      {
+        "name": "CommerceProductCompound",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": true,
+        "presentation": {
+          "caption": "Product",
+          "hint": "",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "productid": [
+                ""
+              ],
+              "variantid": [
+                ""
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "CommerceProductCompound"
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-07-30T11:49:26.655+02:00",
+      "updatedBy": "admin",
+      "updatedAt": "2021-07-30T11:52:57.441+02:00",
+      "id": "ProductHighlight"
+    }
+  },
+  {
+    "name": "titleandtext",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Title and text",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "text",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Text",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Text"
+        },
+        "validations": {
+          "maxRow": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-05-27T15:13:01.199+02:00",
+      "updatedBy": "admin",
+      "updatedAt": "2021-05-27T15:14:11.487+02:00",
+      "id": "titleandtext"
+    }
+  },
+  {
+    "name": "WidgetCompound",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Widget",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "widgetalgo",
+        "type": "SelectableString",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Widget Algorithm",
+          "hint": "",
+          "layoutColumn": 2,
+          "displayType": "Dropdown",
+          "sortOrder": null,
+          "sortBy": null,
+          "showDefault": null
+        },
+        "validations": {
+          "inResourceBundle": "brsm.widget.types",
+          "inValues": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "widgetid",
+        "type": "OpenUiExtension",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Widget",
+          "hint": "",
+          "layoutColumn": 1,
+          "extensionType": "smWidgetPicker"
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2020-12-09T01:13:05.507+01:00",
+      "updatedBy": "admin",
+      "updatedAt": "2020-12-09T01:13:05.507+01:00",
+      "id": "WidgetCompound"
+    }
+  },
+  {
+    "name": "ContenfulContent",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "ContenfulContent",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "contentfulContent",
+        "type": "OpenUiExtension",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Contentful Content",
+          "hint": "",
+          "layoutColumn": 1,
+          "extensionType": "contentful"
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2023-01-31T21:29:08.371+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2023-01-31T21:29:57.655+01:00",
+      "id": "ContenfulContent"
+    }
+  },
+  {
+    "name": "PageLayout",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "PageLayout",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "layouts",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": true,
+        "presentation": {
+          "caption": "Layouts",
+          "hint": "",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "size": [
+                "xs"
+              ],
+              "gap": [
+                "1"
+              ],
+              "templateArea": [
+                "\"t t t t\"\r\n\"m m m m\"\r\n\"l l l l\"\r\n\"r r r r\"\r\n\"b b b b\""
+              ]
+            }
+          },
+          {
+            "fields": {
+              "size": [
+                "sm"
+              ],
+              "gap": [
+                "1"
+              ],
+              "templateArea": [
+                "\"t t t t t t t t\"\r\n\"m m m m m m m m\"\r\n\"l l l l r r r r\"\r\n\"b b b b b b b b\""
+              ]
+            }
+          },
+          {
+            "fields": {
+              "size": [
+                "md"
+              ],
+              "gap": [
+                "2"
+              ],
+              "templateArea": [
+                "\"t t t t t t t t t t t t\"\r\n\"l l l m m m m m m r r r\"\r\n\"b b b b b b b b b b b b\""
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "LayoutContainer"
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2023-05-12T17:33:06.448+02:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2023-05-21T02:08:55.804+02:00",
+      "id": "wnR1SSVpQi"
+    }
+  },
+  {
+    "name": "LayoutContainer",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "LayoutContainer",
+      "layout": "horizontal"
+    },
+    "fields": [
+      {
+        "name": "size",
+        "type": "SelectableString",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Size",
+          "hint": "select the screen size for this configuration",
+          "layoutColumn": 1,
+          "displayType": "Dropdown",
+          "sortOrder": null,
+          "sortBy": null,
+          "showDefault": null
+        },
+        "validations": {
+          "inResourceBundle": null,
+          "inValues": [
+            {
+              "key": "xs",
+              "label": "xs"
+            },
+            {
+              "key": "sm",
+              "label": "sm"
+            },
+            {
+              "key": "md",
+              "label": "md"
+            },
+            {
+              "key": "lg",
+              "label": "lg"
+            },
+            {
+              "key": "xl",
+              "label": "xl"
+            }
+          ]
+        },
+        "defaultValue": [
+          "xs"
+        ]
+      },
+      {
+        "name": "gap",
+        "type": "SelectableString",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Gap",
+          "hint": "select a value to set the size of the gap between containers",
+          "layoutColumn": 1,
+          "displayType": "Dropdown",
+          "sortOrder": null,
+          "sortBy": null,
+          "showDefault": null
+        },
+        "validations": {
+          "inResourceBundle": null,
+          "inValues": [
+            {
+              "key": "0",
+              "label": "0"
+            },
+            {
+              "key": "1",
+              "label": "1"
+            },
+            {
+              "key": "2",
+              "label": "2"
+            },
+            {
+              "key": "3",
+              "label": "3"
+            },
+            {
+              "key": "4",
+              "label": "4"
+            },
+            {
+              "key": "5",
+              "label": "5"
+            },
+            {
+              "key": "6",
+              "label": "6"
+            },
+            {
+              "key": "7",
+              "label": "7"
+            },
+            {
+              "key": "8",
+              "label": "8"
+            },
+            {
+              "key": "9",
+              "label": "9"
+            }
+          ]
+        },
+        "defaultValue": [
+          "1"
+        ]
+      },
+      {
+        "name": "templateArea",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Template Area",
+          "hint": "enter the template area values for the selected size",
+          "layoutColumn": 1,
+          "displayType": "Text"
+        },
+        "validations": {
+          "maxRow": 5
+        },
+        "defaultValue": [
+          "\"t t t t\"\r\n\"m m m m\"\r\n\"l l l l\"\r\n\"r r r r\"\r\n\"b b b b\""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2023-05-12T17:39:37.62+02:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2023-05-21T01:48:21.242+02:00",
+      "id": "nohkj8FIcY"
+    }
+  }
+]

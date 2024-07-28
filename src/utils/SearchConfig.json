@@ -1,0 +1,18 @@
+{
+  "queryParameters": {
+    "default": {
+      "pageSize": "_sps",
+      "pageNumber": "page",
+      "sort": "sort",
+      "facet": "_sfq",
+      "groupBy": "groupby",
+      "groupLimit": "group_limit"
+    },
+    "content": {
+      "pageSize": "_csps",
+      "pageNumber": "_cspage",
+      "sort": "csort",
+      "facet": "_csfq"
+    }
+  }
+}

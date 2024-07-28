@@ -1,0 +1,26 @@
+{
+  "palette": {
+    "mode": "light",
+    "primary": {
+      "main": "#FFD500"
+    },
+    "secondary": {
+      "main": "#002840"
+    },
+    "error": {
+      "main": "#d32f2f"
+    },
+    "warning": {
+      "main": "#ed6c02"
+    },
+    "info": {
+      "main": "#00B2DB"
+    },
+    "success": {
+      "main": "#2e7d32"
+    }
+  },
+  "typography": {
+    "fontFamily": "Montserrat"
+  }
+}

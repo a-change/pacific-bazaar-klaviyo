@@ -1,0 +1,231 @@
+{
+  "name": "fgcolor-options",
+  "displayName": "fgcolor-options",
+  "id": "options.fgcolor",
+  "path": "/content/documents/administration/component-configuration/shared/fgcolor-options",
+  "keys": [
+    {
+      "name": "error.contrastText",
+      "description": null
+    },
+    {
+      "name": "error.dark",
+      "description": null
+    },
+    {
+      "name": "error.light",
+      "description": null
+    },
+    {
+      "name": "error.main",
+      "description": null
+    },
+    {
+      "name": "info.contrastText",
+      "description": null
+    },
+    {
+      "name": "info.dark",
+      "description": null
+    },
+    {
+      "name": "info.light",
+      "description": null
+    },
+    {
+      "name": "info.main",
+      "description": null
+    },
+    {
+      "name": "primary.contrastText",
+      "description": null
+    },
+    {
+      "name": "primary.dark",
+      "description": null
+    },
+    {
+      "name": "primary.light",
+      "description": null
+    },
+    {
+      "name": "primary.main",
+      "description": null
+    },
+    {
+      "name": "secondary.contrastText",
+      "description": null
+    },
+    {
+      "name": "secondary.dark",
+      "description": null
+    },
+    {
+      "name": "secondary.light",
+      "description": null
+    },
+    {
+      "name": "secondary.main",
+      "description": null
+    },
+    {
+      "name": "success.contrastText",
+      "description": null
+    },
+    {
+      "name": "success.dark",
+      "description": null
+    },
+    {
+      "name": "success.light",
+      "description": null
+    },
+    {
+      "name": "success.main",
+      "description": null
+    },
+    {
+      "name": "text.disabled",
+      "description": null
+    },
+    {
+      "name": "text.primary",
+      "description": null
+    },
+    {
+      "name": "text.secondary",
+      "description": null
+    },
+    {
+      "name": "warning.contrastText",
+      "description": null
+    },
+    {
+      "name": "warning.dark",
+      "description": null
+    },
+    {
+      "name": "warning.light",
+      "description": null
+    },
+    {
+      "name": "warning.main",
+      "description": null
+    }
+  ],
+  "valueSets": [
+    {
+      "messages": [
+        {
+          "key": "error.contrastText",
+          "value": "error [contrast text]"
+        },
+        {
+          "key": "error.dark",
+          "value": "error [dark]"
+        },
+        {
+          "key": "error.light",
+          "value": "error [light]"
+        },
+        {
+          "key": "error.main",
+          "value": "error [main]"
+        },
+        {
+          "key": "info.contrastText",
+          "value": "info [contrast text]"
+        },
+        {
+          "key": "info.dark",
+          "value": "info [dark]"
+        },
+        {
+          "key": "info.light",
+          "value": "info [light]"
+        },
+        {
+          "key": "info.main",
+          "value": "info [main]"
+        },
+        {
+          "key": "primary.contrastText",
+          "value": "primary [contrast text]"
+        },
+        {
+          "key": "primary.dark",
+          "value": "primary [dark]"
+        },
+        {
+          "key": "primary.light",
+          "value": "primary [light]"
+        },
+        {
+          "key": "primary.main",
+          "value": "primary [main]"
+        },
+        {
+          "key": "secondary.contrastText",
+          "value": "secondary [contrast text]"
+        },
+        {
+          "key": "secondary.dark",
+          "value": "secondary [dark]"
+        },
+        {
+          "key": "secondary.light",
+          "value": "secondary [light]"
+        },
+        {
+          "key": "secondary.main",
+          "value": "secondary [main]"
+        },
+        {
+          "key": "success.contrastText",
+          "value": "success [contrast text]"
+        },
+        {
+          "key": "success.dark",
+          "value": "success [dark]"
+        },
+        {
+          "key": "success.light",
+          "value": "success [light]"
+        },
+        {
+          "key": "success.main",
+          "value": "success [main]"
+        },
+        {
+          "key": "text.disabled",
+          "value": "text [disabled]"
+        },
+        {
+          "key": "text.primary",
+          "value": "text [primary]"
+        },
+        {
+          "key": "text.secondary",
+          "value": "text [secondary]"
+        },
+        {
+          "key": "warning.contrastText",
+          "value": "warning [contrastText]"
+        },
+        {
+          "key": "warning.dark",
+          "value": "warning [dark]"
+        },
+        {
+          "key": "warning.light",
+          "value": "warning [light]"
+        },
+        {
+          "key": "warning.main",
+          "value": "warning [main]"
+        }
+      ],
+      "name": "DEFAULT"
+    }
+  ]
+}

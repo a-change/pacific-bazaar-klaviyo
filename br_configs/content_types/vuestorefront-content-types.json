@@ -1,0 +1,3898 @@
+[
+  {
+    "name": "vuestorefront:content",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "Content",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "introduction",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Introduction",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Text"
+        },
+        "validations": {
+          "maxRow": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "content",
+        "type": "RichText",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Content",
+          "hint": "",
+          "layoutColumn": 1,
+          "ckEditorAppendedJson": null,
+          "ckEditorOverlayedJson": null,
+          "imagepickerBasePath": null,
+          "imagepickerType": "images",
+          "imagepickerNodetypes": null,
+          "imagepickerLastVisitedEnabled": null,
+          "imagepickerLastVisitedGroupKey": "ckeditor-imagepicker",
+          "imagepickerLastVisitedNodetypes": [
+            "gallery"
+          ],
+          "imagepickerPreferredImageVariant": "original",
+          "linkpickerBasePath": null,
+          "linkpickerType": "documents",
+          "linkpickerNodetypes": null,
+          "linkpickerLastVisitedEnabled": null,
+          "linkpickerLastVisitedGroupKey": "ckeditor-linkpicker",
+          "linkpickerLastVisitedNodetypes": [
+            "folder"
+          ],
+          "linkPickerLanguageContextAware": null,
+          "linkPickerOpenInNewWindowEnabled": true,
+          "includeImageVariants": null,
+          "excludeImageVariants": null
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "image",
+        "type": "Link",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Image",
+          "hint": "",
+          "layoutColumn": 2,
+          "uploadEnabled": true,
+          "displayType": "ImageLink",
+          "lookupFolderTypes": null,
+          "lastVisitedKey": "gallerypicker-imagelink",
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      },
+      {
+        "name": "date",
+        "type": "Date",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Date",
+          "hint": "",
+          "layoutColumn": 2,
+          "timeSelectable": true
+        },
+        "validations": {},
+        "defaultValue": [
+          null
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2020-10-01T17:00:00+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T20:48:14.279+01:00",
+      "id": "content"
+    }
+  },
+  {
+    "name": "vuestorefront:groupitem",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Group item",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "content",
+        "type": "Link",
+        "required": false,
+        "multiple": true,
+        "presentation": {
+          "caption": "Content",
+          "hint": "",
+          "layoutColumn": 1,
+          "lookupFolderPath": null,
+          "lastVisitedNodetypes": null,
+          "languageContextAware": true,
+          "pickerType": null,
+          "displayType": "AnyLink",
+          "lookupFolderTypes": null,
+          "lastVisitedKey": null,
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-06-21T16:48:14.073+02:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T20:48:15.856+01:00",
+      "id": "groupitem"
+    }
+  },
+  {
+    "name": "vuestorefront:heroitem",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Hero item",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "subtitle",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Subtitle",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "background",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Background",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "image",
+        "type": "Link",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Image",
+          "hint": "",
+          "layoutColumn": 1,
+          "uploadEnabled": true,
+          "displayType": "ImageLink",
+          "lookupFolderTypes": null,
+          "lastVisitedKey": "gallerypicker-imagelink",
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      },
+      {
+        "name": "button_link",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Button Link",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "button_text",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Button Text",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-06-21T15:16:46.182+02:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T20:48:17.164+01:00",
+      "id": "heroitem"
+    }
+  },
+  {
+    "name": "vuestorefront:banner",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "Banner",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "subtitle",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Subtitle",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "description",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Description",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Text"
+        },
+        "validations": {
+          "maxRow": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "image",
+        "type": "Link",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Image",
+          "hint": "",
+          "layoutColumn": 1,
+          "uploadEnabled": true,
+          "displayType": "ImageLink",
+          "lookupFolderTypes": null,
+          "lastVisitedKey": "gallerypicker-imagelink",
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      },
+      {
+        "name": "button_link",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Button Link",
+          "hint": "",
+          "layoutColumn": 2,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "background",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Background",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "button_text",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Button Text",
+          "hint": "",
+          "layoutColumn": 2,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2020-10-01T17:00:00+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T20:47:56.927+01:00",
+      "id": "banner"
+    }
+  },
+  {
+    "name": "vuestorefront:link",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "Link",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "text",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Text",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "string",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Link",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": []
+      },
+      {
+        "name": "string1",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Open New",
+          "hint": "",
+          "layoutColumn": 2,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": []
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-07-01T12:25:12.713+02:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T20:48:07.416+01:00",
+      "id": "link"
+    }
+  },
+  {
+    "name": "vuestorefront:accordion",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "Accordion",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "items",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": true,
+        "presentation": {
+          "caption": "Items",
+          "hint": "",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "title": [
+                ""
+              ],
+              "content": []
+            }
+          }
+        ],
+        "fieldGroupType": "vuestorefront:groupitem"
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-06-21T16:49:36.032+02:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T20:47:55.504+01:00",
+      "id": "accordion"
+    }
+  },
+  {
+    "name": "vuestorefront:tabs",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "Tabs",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "items",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": true,
+        "presentation": {
+          "caption": "Items",
+          "hint": "",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "title": [
+                ""
+              ],
+              "content": []
+            }
+          }
+        ],
+        "fieldGroupType": "vuestorefront:groupitem"
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-06-21T16:49:36.032+02:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T20:48:11.552+01:00",
+      "id": "tabs"
+    }
+  },
+  {
+    "name": "vuestorefront:hero",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "Hero",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "items",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": true,
+        "presentation": {
+          "caption": "Hero Items",
+          "hint": "",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "image": [
+                "/"
+              ],
+              "background": [
+                ""
+              ],
+              "subtitle": [
+                ""
+              ],
+              "button_link": [
+                ""
+              ],
+              "button_text": [
+                ""
+              ],
+              "title": [
+                ""
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "vuestorefront:heroitem"
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-06-21T15:22:47.012+02:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T20:48:06.192+01:00",
+      "id": "hero"
+    }
+  },
+  {
+    "name": "vuestorefront:carousel",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "Carousel",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "items",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": true,
+        "presentation": {
+          "caption": "Items",
+          "hint": "",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "content": [
+                "/"
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "vuestorefront:carouselItem"
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-06-21T16:49:36.032+02:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T20:48:00.518+01:00",
+      "id": "carousel"
+    }
+  },
+  {
+    "name": "vuestorefront:carouselItem",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Carousel item",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "content",
+        "type": "Link",
+        "required": false,
+        "multiple": true,
+        "presentation": {
+          "caption": "Content",
+          "hint": "",
+          "layoutColumn": 1,
+          "lookupFolderPath": null,
+          "lastVisitedNodetypes": null,
+          "languageContextAware": true,
+          "pickerType": null,
+          "displayType": "AnyLink",
+          "lookupFolderTypes": null,
+          "lastVisitedKey": null,
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-06-21T16:48:14.073+02:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T20:48:01.701+01:00",
+      "id": "carouselItem"
+    }
+  },
+  {
+    "name": "vuestorefront:calltoaction",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "Call to action",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "description",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Description",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "image",
+        "type": "Link",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Image",
+          "hint": "",
+          "layoutColumn": 1,
+          "uploadEnabled": true,
+          "displayType": "ImageLink",
+          "lookupFolderTypes": null,
+          "lastVisitedKey": "gallerypicker-imagelink",
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      },
+      {
+        "name": "background",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Background",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "button_link",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Button Link",
+          "hint": "",
+          "layoutColumn": 2,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "button_text",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Button Text",
+          "hint": "",
+          "layoutColumn": 2,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2020-10-01T17:00:00+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T20:47:58.829+01:00",
+      "id": "calltoaction"
+    }
+  },
+  {
+    "name": "vuestorefront:heading",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "Heading",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "description",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Description",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Text"
+        },
+        "validations": {
+          "maxRow": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "string",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Level",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": []
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-06-24T16:21:46.204+02:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T20:48:04.875+01:00",
+      "id": "heading"
+    }
+  },
+  {
+    "name": "vuestorefront:productslider",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "Product slider",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "products",
+        "type": "String",
+        "required": false,
+        "multiple": true,
+        "presentation": {
+          "caption": "Product IDs",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-06-30T11:00:19.271+02:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T20:48:10.447+01:00",
+      "id": "productslider"
+    }
+  },
+  {
+    "name": "vuestorefront:editorial",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "Editorial",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "content",
+        "type": "RichText",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Content",
+          "hint": "",
+          "layoutColumn": 1,
+          "ckEditorAppendedJson": null,
+          "ckEditorOverlayedJson": null,
+          "imagepickerBasePath": null,
+          "imagepickerType": "images",
+          "imagepickerNodetypes": null,
+          "imagepickerLastVisitedEnabled": null,
+          "imagepickerLastVisitedGroupKey": "ckeditor-imagepicker",
+          "imagepickerLastVisitedNodetypes": [
+            "gallery"
+          ],
+          "imagepickerPreferredImageVariant": "original",
+          "linkpickerBasePath": null,
+          "linkpickerType": "documents",
+          "linkpickerNodetypes": null,
+          "linkpickerLastVisitedEnabled": null,
+          "linkpickerLastVisitedGroupKey": "ckeditor-linkpicker",
+          "linkpickerLastVisitedNodetypes": [
+            "folder"
+          ],
+          "linkPickerLanguageContextAware": null,
+          "linkPickerOpenInNewWindowEnabled": true,
+          "includeImageVariants": null,
+          "excludeImageVariants": null
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-07-02T11:43:40.777+02:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T20:48:02.706+01:00",
+      "id": "editorial"
+    }
+  },
+  {
+    "name": "vuestorefront:productcard",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "Product card",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "link",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Link",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "image",
+        "type": "Link",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Image",
+          "hint": "",
+          "layoutColumn": 1,
+          "uploadEnabled": true,
+          "displayType": "ImageLink",
+          "lookupFolderTypes": null,
+          "lastVisitedKey": "gallerypicker-imagelink",
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      },
+      {
+        "name": "regularPrice",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Price",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "specialPrice",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Special Price",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "scoreRating",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Rating",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "maxRating",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Max Rating",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-06-28T10:23:47.936+02:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T20:48:09.041+01:00",
+      "id": "productcard"
+    }
+  },
+  {
+    "name": "vuestorefront:gallery",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "Gallery",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "images",
+        "type": "Link",
+        "required": false,
+        "multiple": true,
+        "presentation": {
+          "caption": "Images",
+          "hint": "",
+          "layoutColumn": 1,
+          "uploadEnabled": true,
+          "displayType": "ImageLink",
+          "lookupFolderTypes": null,
+          "lastVisitedKey": "gallerypicker-imagelink",
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-07-19T16:53:24.374+02:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T20:48:03.79+01:00",
+      "id": "gallery"
+    }
+  },
+  {
+    "name": "vuestorefront:CommerceCategoryCompound",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Commerce category",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "categoryid",
+        "type": "OpenUiExtension",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Category",
+          "hint": "",
+          "layoutColumn": 1,
+          "extensionType": "vuestorefrontCommerceCategoryPicker"
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2020-12-09T01:13:05.507+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T20:47:53.329+01:00",
+      "id": "CommerceCategoryCompound"
+    }
+  },
+  {
+    "name": "vuestorefront:CommerceProductCompound",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Commerce product",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "productid",
+        "type": "OpenUiExtension",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Product",
+          "hint": "",
+          "layoutColumn": 1,
+          "extensionType": "vuestorefrontCommerceProductPicker"
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "variantid",
+        "type": "OpenUiExtension",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Product Variant",
+          "hint": "",
+          "layoutColumn": 1,
+          "extensionType": "vuestorefrontCommerceProductVariantPicker"
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2020-12-09T01:13:05.507+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T20:47:54.339+01:00",
+      "id": "CommerceProductCompound"
+    }
+  },
+  {
+    "name": "vuestorefront:WidgetCompound",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Widget",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "widgetalgo",
+        "type": "SelectableString",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Widget Algorithm",
+          "hint": "",
+          "layoutColumn": 2,
+          "displayType": "Dropdown",
+          "sortOrder": null,
+          "sortBy": null,
+          "showDefault": null
+        },
+        "validations": {
+          "inResourceBundle": "brsm.widget.types",
+          "inValues": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "widgetid",
+        "type": "OpenUiExtension",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Widget",
+          "hint": "",
+          "layoutColumn": 1,
+          "extensionType": "smWidgetPicker"
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2020-12-09T01:13:05.507+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T20:48:12.792+01:00",
+      "id": "WidgetCompound"
+    }
+  },
+  {
+    "name": "vuestorefront:pathways",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Pathways & Recommendations",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "WidgetCompound",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Widget",
+          "hint": "",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "widgetalgo": [
+                ""
+              ],
+              "widgetid": [
+                ""
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "vuestorefront:WidgetCompound"
+      },
+      {
+        "name": "ProductCompound",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": true,
+        "presentation": {
+          "caption": "Product Reference",
+          "hint": "",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "productid": [
+                ""
+              ],
+              "variantid": [
+                ""
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "vuestorefront:CommerceProductCompound"
+      },
+      {
+        "name": "CategoryCompound",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Category Reference",
+          "hint": "",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "categoryid": [
+                ""
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "vuestorefront:CommerceCategoryCompound"
+      },
+      {
+        "name": "keyword",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Keyword",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-07-16T16:24:00.329+02:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T20:48:18.647+01:00",
+      "id": "pathways"
+    }
+  },
+  {
+    "name": "vuestorefront:MetaTagFieldGroup",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "MetaTagFieldGroup",
+      "layout": "two-column-mirrored"
+    },
+    "fields": [
+      {
+        "name": "type",
+        "type": "SelectableString",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Type",
+          "hint": "select a type for the meta-tag",
+          "layoutColumn": 1,
+          "displayType": "Dropdown",
+          "sortOrder": null,
+          "sortBy": null,
+          "showDefault": null
+        },
+        "validations": {
+          "inResourceBundle": null,
+          "inValues": [
+            {
+              "key": "http-equiv",
+              "label": "http-equiv"
+            },
+            {
+              "key": "name",
+              "label": "name"
+            }
+          ]
+        },
+        "defaultValue": []
+      },
+      {
+        "name": "name",
+        "type": "String",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Name",
+          "hint": "enter the name for the meta-tag",
+          "layoutColumn": 2,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "content",
+        "type": "String",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Content",
+          "hint": "enter the content for the meta-tag",
+          "layoutColumn": 2,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T16:08:28.499+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T16:16:57.849+01:00",
+      "id": "MetaTagFieldGroup"
+    }
+  },
+  {
+    "name": "vuestorefront:PageDocument",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "PageDocument",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "enter a title for the page",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "description",
+        "type": "String",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Description",
+          "hint": "enter a description for the page",
+          "layoutColumn": 1,
+          "displayType": "Text"
+        },
+        "validations": {
+          "maxRow": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "metatags",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": true,
+        "presentation": {
+          "caption": "Additional Meta Tags",
+          "hint": "add other meta-tags for the page",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [],
+        "fieldGroupType": "vuestorefront:MetaTagFieldGroup"
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T16:17:25.288+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T16:22:35.156+01:00",
+      "id": "PageDocument"
+    }
+  },
+  {
+    "name": "vuestorefront:ExternalImageFieldGroup",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "ExternalImageFieldGroup",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "source",
+        "type": "String",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Source",
+          "hint": "enter the url to an image located outside of the Bloomreach repository",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T16:23:18.479+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T16:24:44.426+01:00",
+      "id": "ExternalImageFieldGroup"
+    }
+  },
+  {
+    "name": "vuestorefront:InternalImageFieldGroup",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "InternalImageFieldGroup",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "source",
+        "type": "Link",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Source",
+          "hint": "select an image from Bloomreach Content",
+          "layoutColumn": 1,
+          "uploadEnabled": true,
+          "displayType": "ImageLink",
+          "lookupFolderTypes": null,
+          "lastVisitedKey": "gallerypicker-imagelink",
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T16:25:11.768+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T16:27:01.295+01:00",
+      "id": "InternalImageFieldGroup"
+    }
+  },
+  {
+    "name": "vuestorefront:ImageFieldGroup",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "ImageFieldGroup",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "image",
+        "type": "SelectableFieldGroup",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Image",
+          "hint": "select an image from Bloomreach Content or enter the url for an externally hosted image",
+          "layoutColumn": 1,
+          "contentPickerType": "dropdown",
+          "showFieldGroupNames": null
+        },
+        "validations": {
+          "maxItem": null
+        },
+        "defaultValue": [],
+        "fieldGroupTypes": [
+          "vuestorefront:ExternalImageFieldGroup",
+          "vuestorefront:InternalImageFieldGroup"
+        ]
+      },
+      {
+        "name": "altText",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Alternate Text",
+          "hint": "enter alternate text for accessibility",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": []
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T16:27:54.78+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T16:32:24.948+01:00",
+      "id": "ImageFieldGroup"
+    }
+  },
+  {
+    "name": "vuestorefront:ExternalLinkFieldGroup",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "ExternalLinkFieldGroup",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "target",
+        "type": "String",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Target",
+          "hint": "enter the relative or absolute url for the link",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T16:32:51.835+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T16:34:13.705+01:00",
+      "id": "ExternalLinkFieldGroup"
+    }
+  },
+  {
+    "name": "vuestorefront:InternalLinkFieldGroup",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "InternalLinkFieldGroup",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "target",
+        "type": "Link",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "target",
+          "hint": "select an item from Bloomreach Content as the link target",
+          "layoutColumn": 1,
+          "lookupFolderPath": null,
+          "lastVisitedNodetypes": null,
+          "languageContextAware": true,
+          "pickerType": null,
+          "displayType": "AnyLink",
+          "lookupFolderTypes": [
+            "vuestorefront:PageDocument"
+          ],
+          "lastVisitedKey": "InternalLinkKey",
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T16:34:50.344+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T16:38:57.062+01:00",
+      "id": "InternalLinkFieldGroup"
+    }
+  },
+  {
+    "name": "vuestorefront:LinkFieldGroup",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "LinkFieldGroup",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "text",
+        "type": "String",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Text",
+          "hint": "enter the text to be displayed for the link",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "link",
+        "type": "SelectableFieldGroup",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Link",
+          "hint": "select an item from Bloomreach Content or enter a URL for the link",
+          "layoutColumn": 1,
+          "contentPickerType": "dropdown",
+          "showFieldGroupNames": null
+        },
+        "validations": {
+          "maxItem": null
+        },
+        "defaultValue": [],
+        "fieldGroupTypes": [
+          "vuestorefront:ExternalLinkFieldGroup",
+          "vuestorefront:InternalLinkFieldGroup"
+        ]
+      },
+      {
+        "name": "staticdropdown",
+        "type": "SelectableString",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Type",
+          "hint": "select a type for the link",
+          "layoutColumn": 1,
+          "displayType": "Dropdown",
+          "sortOrder": null,
+          "sortBy": null,
+          "showDefault": null
+        },
+        "validations": {
+          "inResourceBundle": null,
+          "inValues": [
+            {
+              "key": "primary",
+              "label": "primary"
+            },
+            {
+              "key": " secondary",
+              "label": " secondary"
+            },
+            {
+              "key": " info",
+              "label": " info"
+            },
+            {
+              "key": " success",
+              "label": " success"
+            },
+            {
+              "key": " warning",
+              "label": " warning"
+            },
+            {
+              "key": " danger",
+              "label": " danger"
+            }
+          ]
+        },
+        "defaultValue": []
+      },
+      {
+        "name": "newTab",
+        "type": "Boolean",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Open in new tab",
+          "hint": "check to open the link in a new tab or window",
+          "layoutColumn": 1,
+          "displayType": "Checkbox"
+        },
+        "validations": {},
+        "defaultValue": [
+          false
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T16:39:37.911+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-15T00:41:39.912+01:00",
+      "id": "LinkFieldGroup"
+    }
+  },
+  {
+    "name": "vuestorefront:BannerDocument",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "BannerDocument",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "add a title for the banner",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "subtitle",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Subtitle",
+          "hint": "add a subtitle for the banner",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "description",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Description",
+          "hint": "add a description for the banner",
+          "layoutColumn": 1,
+          "displayType": "Text"
+        },
+        "validations": {
+          "maxRow": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "image",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Image",
+          "hint": "add an image for the banner",
+          "layoutColumn": 2
+        },
+        "validations": {},
+        "defaultValue": [],
+        "fieldGroupType": "vuestorefront:ImageFieldGroup"
+      },
+      {
+        "name": "button",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Button",
+          "hint": "add a button for the banner",
+          "layoutColumn": 2
+        },
+        "validations": {},
+        "defaultValue": [],
+        "fieldGroupType": "vuestorefront:LinkFieldGroup"
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T16:48:14.055+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T17:01:04.22+01:00",
+      "id": "BannerDocument"
+    }
+  },
+  {
+    "name": "vuestorefront:BannerSetFieldGroup",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "BannerSetFieldGroup",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "items",
+        "type": "Link",
+        "required": true,
+        "multiple": true,
+        "presentation": {
+          "caption": "Items",
+          "hint": "select up to four banners for the banner set",
+          "layoutColumn": 1,
+          "lookupFolderPath": "/banners",
+          "lastVisitedNodetypes": null,
+          "languageContextAware": true,
+          "pickerType": null,
+          "displayType": "AnyLink",
+          "lookupFolderTypes": [
+            "vuestorefront:BannerDocument"
+          ],
+          "lastVisitedKey": "BannerSetItem",
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T16:52:16.534+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T17:21:34.755+01:00",
+      "id": "BannerSetFieldGroup"
+    }
+  },
+  {
+    "name": "vuestorefront:CallToActionDocument",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "CallToActionDocument",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "add a title for the call to action",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "description",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Description",
+          "hint": "add a description for the call to action",
+          "layoutColumn": 1,
+          "displayType": "Text"
+        },
+        "validations": {
+          "maxRow": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "image",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Image",
+          "hint": "add an image for the call to action",
+          "layoutColumn": 2
+        },
+        "validations": {},
+        "defaultValue": [],
+        "fieldGroupType": "vuestorefront:ImageFieldGroup"
+      },
+      {
+        "name": "button",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Button",
+          "hint": "add a button for the call to action",
+          "layoutColumn": 2
+        },
+        "validations": {},
+        "defaultValue": [],
+        "fieldGroupType": "vuestorefront:LinkFieldGroup"
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T16:57:11.355+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T17:00:34.283+01:00",
+      "id": "CallToActionDocument"
+    }
+  },
+  {
+    "name": "vuestorefront:CardDocument",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "CardDocument",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "add a title for the card",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "description",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Description",
+          "hint": "add a description for the card",
+          "layoutColumn": 1,
+          "displayType": "Text"
+        },
+        "validations": {
+          "maxRow": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "image",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Image",
+          "hint": "add an image for the card",
+          "layoutColumn": 2
+        },
+        "validations": {},
+        "defaultValue": [],
+        "fieldGroupType": "vuestorefront:ImageFieldGroup"
+      },
+      {
+        "name": "button",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Button",
+          "hint": "add a button for the card",
+          "layoutColumn": 2
+        },
+        "validations": {},
+        "defaultValue": [],
+        "fieldGroupType": "vuestorefront:LinkFieldGroup"
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T17:03:35.829+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T17:05:55.682+01:00",
+      "id": "CardDocument"
+    }
+  },
+  {
+    "name": "vuestorefront:ContentDocument",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "ContentDocument",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "enter a title for the content item",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "description",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Description",
+          "hint": "add a description for the content item",
+          "layoutColumn": 1,
+          "displayType": "Text"
+        },
+        "validations": {
+          "maxRow": null
+        },
+        "defaultValue": []
+      },
+      {
+        "name": "content",
+        "type": "RichText",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Content",
+          "hint": "enter rich content for the content item",
+          "layoutColumn": 1,
+          "ckEditorAppendedJson": null,
+          "ckEditorOverlayedJson": null,
+          "imagepickerBasePath": null,
+          "imagepickerType": "images",
+          "imagepickerNodetypes": null,
+          "imagepickerLastVisitedEnabled": null,
+          "imagepickerLastVisitedGroupKey": "ckeditor-imagepicker",
+          "imagepickerLastVisitedNodetypes": [
+            "gallery"
+          ],
+          "imagepickerPreferredImageVariant": "original",
+          "linkpickerBasePath": null,
+          "linkpickerType": "documents",
+          "linkpickerNodetypes": null,
+          "linkpickerLastVisitedEnabled": null,
+          "linkpickerLastVisitedGroupKey": "ckeditor-linkpicker",
+          "linkpickerLastVisitedNodetypes": [
+            "folder"
+          ],
+          "linkPickerLanguageContextAware": null,
+          "linkPickerOpenInNewWindowEnabled": true,
+          "includeImageVariants": null,
+          "excludeImageVariants": null
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "publishDate",
+        "type": "Date",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Publish Date",
+          "hint": "enter the publish date for the content item",
+          "layoutColumn": 2,
+          "timeSelectable": false
+        },
+        "validations": {},
+        "defaultValue": [
+          null
+        ]
+      },
+      {
+        "name": "author",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Author",
+          "hint": "add an author for the content item",
+          "layoutColumn": 2,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": []
+      },
+      {
+        "name": "image",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Image",
+          "hint": "add an image for the content item",
+          "layoutColumn": 2
+        },
+        "validations": {},
+        "defaultValue": [],
+        "fieldGroupType": "vuestorefront:ImageFieldGroup"
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T17:06:16.775+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T17:16:01.175+01:00",
+      "id": "ContentDocument"
+    }
+  },
+  {
+    "name": "vuestorefront:NotificationDocument",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "NotificationDocument",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "add a title for the notification",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "message",
+        "type": "String",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Message",
+          "hint": "enter the message for the notification",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "staticdropdown",
+        "type": "SelectableString",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Type",
+          "hint": "select the type for the notification",
+          "layoutColumn": 2,
+          "displayType": "Dropdown",
+          "sortOrder": null,
+          "sortBy": null,
+          "showDefault": null
+        },
+        "validations": {
+          "inResourceBundle": null,
+          "inValues": [
+            {
+              "key": "secondary",
+              "label": "secondary"
+            },
+            {
+              "key": " info",
+              "label": " info"
+            },
+            {
+              "key": " success",
+              "label": " success"
+            },
+            {
+              "key": " warning",
+              "label": " warning"
+            },
+            {
+              "key": " danger",
+              "label": " danger"
+            }
+          ]
+        },
+        "defaultValue": []
+      },
+      {
+        "name": "action",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Action",
+          "hint": "add an action link for the notification",
+          "layoutColumn": 2
+        },
+        "validations": {},
+        "defaultValue": [],
+        "fieldGroupType": "vuestorefront:LinkFieldGroup"
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T17:11:41.245+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-15T00:45:18.486+01:00",
+      "id": "NotificationDocument"
+    }
+  },
+  {
+    "name": "vuestorefront:GroupItemFieldGroup",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "GroupItemFieldGroup",
+      "layout": "one-column"
+    },
+    "fields": [],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T17:16:30.889+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T17:27:07.282+01:00",
+      "id": "GroupItemFieldGroup"
+    }
+  },
+  {
+    "name": "vuestorefront:ContentSetItemFieldGroup",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "ContentSetItemFieldGroup",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "document",
+        "type": "Link",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Content Item",
+          "hint": "select the content document  for this item",
+          "layoutColumn": 1,
+          "lookupFolderPath": "/content",
+          "lastVisitedNodetypes": null,
+          "languageContextAware": true,
+          "pickerType": null,
+          "displayType": "AnyLink",
+          "lookupFolderTypes": [
+            "vuestorefront:ContentDocument"
+          ],
+          "lastVisitedKey": "ContentSetItem",
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      },
+      {
+        "name": "isOpen",
+        "type": "Boolean",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Check to show content at start",
+          "hint": "check if the content item should be open/visible by default",
+          "layoutColumn": 2,
+          "displayType": "Checkbox"
+        },
+        "validations": {},
+        "defaultValue": [
+          false
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T17:29:06.331+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T17:35:36.777+01:00",
+      "id": "ContentSetItemFieldGroup"
+    }
+  },
+  {
+    "name": "vuestorefront:ContentSetFieldGroup",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "ContentSetFieldGroup",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "items",
+        "type": "FieldGroup",
+        "required": true,
+        "multiple": true,
+        "presentation": {
+          "caption": "Items",
+          "hint": "add one or more content items to the content set",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "isOpen": [
+                false
+              ],
+              "document": [
+                "/"
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "vuestorefront:ContentSetItemFieldGroup"
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T17:36:23.194+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T17:39:19.553+01:00",
+      "id": "ContentSetFieldGroup"
+    }
+  },
+  {
+    "name": "vuestorefront:BadgeFieldGroup",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "BadgeFieldGroup",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "staticdropdown",
+        "type": "SelectableString",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Type",
+          "hint": "select the type for the badge",
+          "layoutColumn": 1,
+          "displayType": "Dropdown",
+          "sortOrder": null,
+          "sortBy": null,
+          "showDefault": null
+        },
+        "validations": {
+          "inResourceBundle": null,
+          "inValues": [
+            {
+              "key": "primary",
+              "label": "primary"
+            },
+            {
+              "key": " secondary",
+              "label": " secondary"
+            },
+            {
+              "key": " info",
+              "label": " info"
+            },
+            {
+              "key": " success",
+              "label": " success"
+            },
+            {
+              "key": " warning",
+              "label": " warning"
+            },
+            {
+              "key": " danger",
+              "label": " danger"
+            }
+          ]
+        },
+        "defaultValue": []
+      },
+      {
+        "name": "text",
+        "type": "String",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Text",
+          "hint": "enter the text for the badge",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T17:40:21.383+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-15T00:38:36.377+01:00",
+      "id": "BadgeFieldGroup"
+    }
+  },
+  {
+    "name": "vuestorefront:HeroItemsFieldGroup",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "HeroItemsFieldGroup",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "items",
+        "type": "Link",
+        "required": true,
+        "multiple": true,
+        "presentation": {
+          "caption": "Items",
+          "hint": "add one or more banner documents to the hero items",
+          "layoutColumn": 1,
+          "lookupFolderPath": "/banners",
+          "lastVisitedNodetypes": null,
+          "languageContextAware": true,
+          "pickerType": null,
+          "displayType": "AnyLink",
+          "lookupFolderTypes": [
+            "vuestorefront:BannerDocument"
+          ],
+          "lastVisitedKey": "HeroSetItem",
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T17:44:32.72+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T17:46:07.466+01:00",
+      "id": "HeroItemsFieldGroup"
+    }
+  },
+  {
+    "name": "vuestorefront:ProductVariantFieldGroup",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "ProductVariantFieldGroup",
+      "layout": "two-column-mirrored"
+    },
+    "fields": [
+      {
+        "name": "sku",
+        "type": "String",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "SKU",
+          "hint": "enter the sku for the product vatiant",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "regularPrice",
+        "type": "Number",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Regular Price",
+          "hint": "enter the regular price for the product variant",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          0.0
+        ]
+      },
+      {
+        "name": "specialPrice",
+        "type": "Number",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Special Price",
+          "hint": "add a special price for the product variant",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          0.0
+        ]
+      },
+      {
+        "name": "images",
+        "type": "FieldGroup",
+        "required": true,
+        "multiple": true,
+        "presentation": {
+          "caption": "images",
+          "hint": "add one or more images for the product variant",
+          "layoutColumn": 2
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "image": [],
+              "altText": []
+            }
+          }
+        ],
+        "fieldGroupType": "vuestorefront:ImageFieldGroup"
+      },
+      {
+        "name": "staticdropdown",
+        "type": "SelectableString",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Color",
+          "hint": "select a color for the product variant",
+          "layoutColumn": 1,
+          "displayType": "Dropdown",
+          "sortOrder": null,
+          "sortBy": null,
+          "showDefault": null
+        },
+        "validations": {
+          "inResourceBundle": null,
+          "inValues": [
+            {
+              "key": "color 1",
+              "label": "color 1"
+            },
+            {
+              "key": " color 2",
+              "label": " color 2"
+            },
+            {
+              "key": " color 3",
+              "label": " color 3"
+            },
+            {
+              "key": " color 4",
+              "label": " color 4"
+            },
+            {
+              "key": " color 5",
+              "label": " color 5"
+            }
+          ]
+        },
+        "defaultValue": []
+      },
+      {
+        "name": "material",
+        "type": "SelectableString",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Material",
+          "hint": "select a material for the product variant",
+          "layoutColumn": 1,
+          "displayType": "Dropdown",
+          "sortOrder": null,
+          "sortBy": null,
+          "showDefault": null
+        },
+        "validations": {
+          "inResourceBundle": null,
+          "inValues": [
+            {
+              "key": "material 1",
+              "label": "material 1"
+            },
+            {
+              "key": " material 2",
+              "label": " material 2"
+            },
+            {
+              "key": " material 3",
+              "label": " material 3"
+            },
+            {
+              "key": " material 4",
+              "label": " material 4"
+            },
+            {
+              "key": " material 5",
+              "label": " material 5"
+            }
+          ]
+        },
+        "defaultValue": []
+      },
+      {
+        "name": "staticdropdown1",
+        "type": "SelectableString",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Size",
+          "hint": "select the size for the product variant",
+          "layoutColumn": 1,
+          "displayType": "Dropdown",
+          "sortOrder": null,
+          "sortBy": null,
+          "showDefault": null
+        },
+        "validations": {
+          "inResourceBundle": null,
+          "inValues": [
+            {
+              "key": "size 1",
+              "label": "size 1"
+            },
+            {
+              "key": " size 2",
+              "label": " size 2"
+            },
+            {
+              "key": " size 3",
+              "label": " size 3"
+            },
+            {
+              "key": " size 4",
+              "label": " size 4"
+            },
+            {
+              "key": " size 5",
+              "label": " size 5"
+            }
+          ]
+        },
+        "defaultValue": []
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T17:46:41.548+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-15T00:53:21.417+01:00",
+      "id": "ProductVariantFieldGroup"
+    }
+  },
+  {
+    "name": "vuestorefront:ReviewDocument",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "ReviewDocument",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "enter a title for the review",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "message",
+        "type": "String",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Message",
+          "hint": "enter a message for the review",
+          "layoutColumn": 1,
+          "displayType": "Text"
+        },
+        "validations": {
+          "maxRow": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "date",
+        "type": "Date",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Date",
+          "hint": "enter a date for the review",
+          "layoutColumn": 2,
+          "timeSelectable": false
+        },
+        "validations": {},
+        "defaultValue": [
+          null
+        ]
+      },
+      {
+        "name": "rating",
+        "type": "Number",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Rating",
+          "hint": "enter a rating between 0.0 and 5.0 for the review",
+          "layoutColumn": 2
+        },
+        "validations": {},
+        "defaultValue": [
+          0.0
+        ]
+      },
+      {
+        "name": "author",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Author",
+          "hint": "add an author for the review",
+          "layoutColumn": 2,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T17:53:43.599+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T17:57:45.171+01:00",
+      "id": "ReviewDocument"
+    }
+  },
+  {
+    "name": "vuestorefront:ProductDocument",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "ProductDocument",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "enter a title for the product",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "description",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Description",
+          "hint": "add a description for the product",
+          "layoutColumn": 1,
+          "displayType": "Text"
+        },
+        "validations": {
+          "maxRow": null
+        },
+        "defaultValue": []
+      },
+      {
+        "name": "additionalInfo",
+        "type": "RichText",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Additional Info",
+          "hint": "add additional info for the product",
+          "layoutColumn": 1,
+          "ckEditorAppendedJson": null,
+          "ckEditorOverlayedJson": null,
+          "imagepickerBasePath": null,
+          "imagepickerType": "images",
+          "imagepickerNodetypes": null,
+          "imagepickerLastVisitedEnabled": null,
+          "imagepickerLastVisitedGroupKey": "ckeditor-imagepicker",
+          "imagepickerLastVisitedNodetypes": [
+            "gallery"
+          ],
+          "imagepickerPreferredImageVariant": "original",
+          "linkpickerBasePath": null,
+          "linkpickerType": "documents",
+          "linkpickerNodetypes": null,
+          "linkpickerLastVisitedEnabled": null,
+          "linkpickerLastVisitedGroupKey": "ckeditor-linkpicker",
+          "linkpickerLastVisitedNodetypes": [
+            "folder"
+          ],
+          "linkPickerLanguageContextAware": null,
+          "linkPickerOpenInNewWindowEnabled": true,
+          "includeImageVariants": null,
+          "excludeImageVariants": null
+        },
+        "validations": {},
+        "defaultValue": []
+      },
+      {
+        "name": "pid",
+        "type": "String",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Product ID",
+          "hint": "enter the ID for the product",
+          "layoutColumn": 2,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "variants",
+        "type": "FieldGroup",
+        "required": true,
+        "multiple": true,
+        "presentation": {
+          "caption": "Variants",
+          "hint": "add one or more variants for the product",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "images": [
+                {
+                  "fields": {
+                    "image": [],
+                    "altText": []
+                  }
+                }
+              ],
+              "staticdropdown1": [],
+              "material": [],
+              "regularPrice": [
+                0.0
+              ],
+              "staticdropdown": [],
+              "sku": [
+                ""
+              ],
+              "specialPrice": [
+                0.0
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "vuestorefront:ProductVariantFieldGroup"
+      },
+      {
+        "name": "categories",
+        "type": "SelectableString",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Categories",
+          "hint": "select one or more categories for the product",
+          "layoutColumn": 2,
+          "displayType": "MultiSelect",
+          "multiSelectType": "selectlist",
+          "maxRowWithoutScrollbar": null,
+          "multiSelectAllowOrder": null
+        },
+        "validations": {
+          "inResourceBundle": "vsf.product.categories"
+        },
+        "defaultValue": []
+      },
+      {
+        "name": "badge",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Badge",
+          "hint": "add a badge for the product",
+          "layoutColumn": 2
+        },
+        "validations": {},
+        "defaultValue": [],
+        "fieldGroupType": "vuestorefront:BadgeFieldGroup"
+      },
+      {
+        "name": "rating",
+        "type": "Number",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Rating",
+          "hint": "add a rating between 0.0 and 5.0 for the product",
+          "layoutColumn": 2
+        },
+        "validations": {},
+        "defaultValue": [
+          0.0
+        ]
+      },
+      {
+        "name": "reviews",
+        "type": "Link",
+        "required": false,
+        "multiple": true,
+        "presentation": {
+          "caption": "Reviews",
+          "hint": "add one or more reviews for the product",
+          "layoutColumn": 2,
+          "lookupFolderPath": "/reviews",
+          "lastVisitedNodetypes": null,
+          "languageContextAware": true,
+          "pickerType": null,
+          "displayType": "AnyLink",
+          "lookupFolderTypes": [
+            "vuestorefront:ReviewDocument"
+          ],
+          "lastVisitedKey": "ReviewItem",
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": []
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T17:58:04.387+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-15T00:54:56.351+01:00",
+      "id": "ProductDocument"
+    }
+  },
+  {
+    "name": "vuestorefront:ProductSetFieldGroup",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "ProductSetFieldGroup",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "items",
+        "type": "Link",
+        "required": true,
+        "multiple": true,
+        "presentation": {
+          "caption": "Items",
+          "hint": "add one or more products to the product set",
+          "layoutColumn": 1,
+          "lookupFolderPath": "/products",
+          "lastVisitedNodetypes": null,
+          "languageContextAware": true,
+          "pickerType": null,
+          "displayType": "AnyLink",
+          "lookupFolderTypes": [
+            "vuestorefront:ProductDocument"
+          ],
+          "lastVisitedKey": "ProductSetItem",
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T18:11:35.187+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T18:12:41.057+01:00",
+      "id": "ProductSetFieldGroup"
+    }
+  },
+  {
+    "name": "vuestorefront:CoordinatesFieldGroup",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "CoordinatesFieldGroup",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "lat",
+        "type": "Number",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Latitude",
+          "hint": "enter the latitude value for the coordinates",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          0.0
+        ]
+      },
+      {
+        "name": "long",
+        "type": "Number",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Longitude",
+          "hint": "enter the longitude value for the coordinates",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          0.0
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T18:18:22.103+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T18:19:43.905+01:00",
+      "id": "CoordinatesFieldGroup"
+    }
+  },
+  {
+    "name": "vuestorefront:StoreDocument",
+    "enabled": true,
+    "type": "Document",
+    "presentation": {
+      "displayName": "StoreDocument",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "name",
+        "type": "String",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Name",
+          "hint": "enter a name for the store",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "address",
+        "type": "String",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Address",
+          "hint": "enter an address for the store",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "phone",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Phone",
+          "hint": "add a phone number for the store",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "email",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Email",
+          "hint": "add an email for the store",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "coordinates",
+        "type": "FieldGroup",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Coordinates",
+          "hint": "enter the latitude and longitude for the store",
+          "layoutColumn": 2
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "lat": [
+                0.0
+              ],
+              "long": [
+                0.0
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "vuestorefront:CoordinatesFieldGroup"
+      },
+      {
+        "name": "image",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Image",
+          "hint": "add an image for the store",
+          "layoutColumn": 2
+        },
+        "validations": {},
+        "defaultValue": [],
+        "fieldGroupType": "vuestorefront:ImageFieldGroup"
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T18:20:09.4+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T18:24:48.337+01:00",
+      "id": "StoreDocument"
+    }
+  },
+  {
+    "name": "vuestorefront:HeadingFieldGroup",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "HeadingFieldGroup",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "level",
+        "type": "SelectableString",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Level",
+          "hint": "select a level for the heading",
+          "layoutColumn": 1,
+          "displayType": "Dropdown",
+          "sortOrder": null,
+          "sortBy": null,
+          "showDefault": null
+        },
+        "validations": {
+          "inResourceBundle": null,
+          "inValues": [
+            {
+              "key": "1",
+              "label": "1"
+            },
+            {
+              "key": "2",
+              "label": "2"
+            },
+            {
+              "key": "3",
+              "label": "3"
+            },
+            {
+              "key": "4",
+              "label": "4"
+            },
+            {
+              "key": "5",
+              "label": "5"
+            },
+            {
+              "key": "6",
+              "label": "6"
+            }
+          ]
+        },
+        "defaultValue": []
+      },
+      {
+        "name": "title",
+        "type": "String",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "enter a title for the heading",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "description",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Description",
+          "hint": "add a description for the heading",
+          "layoutColumn": 1,
+          "displayType": "Text"
+        },
+        "validations": {
+          "maxRow": null
+        },
+        "defaultValue": []
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T18:25:11.588+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-29T22:27:41.68+01:00",
+      "id": "HeadingFieldGroup"
+    }
+  },
+  {
+    "name": "vuestorefront:MenuItemFieldGroup",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "MenuItemFieldGroup",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "enter the title (label) for the menu item",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "staticdropdown",
+        "type": "SelectableString",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Action",
+          "hint": "select the action for the menu item",
+          "layoutColumn": 1,
+          "displayType": "Dropdown",
+          "sortOrder": null,
+          "sortBy": null,
+          "showDefault": null
+        },
+        "validations": {
+          "inResourceBundle": null,
+          "inValues": [
+            {
+              "key": "add to cart",
+              "label": "add to cart"
+            },
+            {
+              "key": " go to home",
+              "label": " go to home"
+            },
+            {
+              "key": " show favorites",
+              "label": " show favorites"
+            },
+            {
+              "key": " show menu",
+              "label": " show menu"
+            },
+            {
+              "key": " show profile",
+              "label": " show profile"
+            }
+          ]
+        },
+        "defaultValue": []
+      },
+      {
+        "name": "actionParams",
+        "type": "String",
+        "required": false,
+        "multiple": true,
+        "presentation": {
+          "caption": "Action Parameters",
+          "hint": "add",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": []
+      },
+      {
+        "name": "isActive",
+        "type": "Boolean",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Is active",
+          "hint": "check if the menu item should be displayed as active",
+          "layoutColumn": 1,
+          "displayType": "Checkbox"
+        },
+        "validations": {},
+        "defaultValue": [
+          false
+        ]
+      },
+      {
+        "name": "icon",
+        "type": "SelectableString",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Icon",
+          "hint": "select an icon for the menu item",
+          "layoutColumn": 2,
+          "displayType": "Dropdown",
+          "sortOrder": null,
+          "sortBy": null,
+          "showDefault": null
+        },
+        "validations": {
+          "inResourceBundle": "vsf.icon.types",
+          "inValues": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "iconActive",
+        "type": "SelectableString",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Active Icon",
+          "hint": "select an icon for the menu item when it is active",
+          "layoutColumn": 2,
+          "displayType": "Dropdown",
+          "sortOrder": null,
+          "sortBy": null,
+          "showDefault": null
+        },
+        "validations": {
+          "inResourceBundle": null,
+          "inValues": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "iconMobile",
+        "type": "SelectableString",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Mobile Icon",
+          "hint": "select an icon for the menu item in mobile view",
+          "layoutColumn": 2,
+          "displayType": "Dropdown",
+          "sortOrder": null,
+          "sortBy": null,
+          "showDefault": null
+        },
+        "validations": {
+          "inResourceBundle": null,
+          "inValues": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "iconSize",
+        "type": "Integer",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Icon Size (in pixels)",
+          "hint": "add a size for the icon for the  menu item",
+          "layoutColumn": 2
+        },
+        "validations": {},
+        "defaultValue": [
+          0
+        ]
+      },
+      {
+        "name": "isFloating",
+        "type": "Boolean",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Is Floating",
+          "hint": "check id the menu item should be displayed as floating",
+          "layoutColumn": 1,
+          "displayType": "Checkbox"
+        },
+        "validations": {},
+        "defaultValue": [
+          false
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T18:29:51.38+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-15T01:00:05.35+01:00",
+      "id": "MenuItemFieldGroup"
+    }
+  },
+  {
+    "name": "vuestorefront:BottomNavigationFieldGroup",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "BottomNavigationFieldGroup",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "items",
+        "type": "FieldGroup",
+        "required": true,
+        "multiple": true,
+        "presentation": {
+          "caption": "Items",
+          "hint": "add menu items for the bottom navigation",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "actionParams": [],
+              "iconActive": [
+                ""
+              ],
+              "isFloating": [
+                false
+              ],
+              "icon": [
+                ""
+              ],
+              "staticdropdown": [],
+              "iconSize": [
+                0
+              ],
+              "title": [
+                ""
+              ],
+              "isActive": [
+                false
+              ],
+              "iconMobile": [
+                ""
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "vuestorefront:MenuItemFieldGroup"
+      }
+    ],
+    "system": {
+      "createdBy": "brxsbxdemo+07@gmail.com",
+      "createdAt": "2022-11-09T20:43:27.942+01:00",
+      "updatedBy": "brxsbxdemo+07@gmail.com",
+      "updatedAt": "2022-11-09T20:44:20.591+01:00",
+      "id": "BottomNavigationFieldGroup"
+    }
+  },
+  {
+    "name": "vuestorefront:StoreSetFieldGroup",
+    "enabled": true,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "StoreSetFieldGroup",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "items",
+        "type": "Link",
+        "required": true,
+        "multiple": true,
+        "presentation": {
+          "caption": "Items",
+          "hint": "add one or more items to the set",
+          "layoutColumn": 1,
+          "lookupFolderPath": "/stores",
+          "lastVisitedNodetypes": null,
+          "languageContextAware": true,
+          "pickerType": null,
+          "displayType": "AnyLink",
+          "lookupFolderTypes": [
+            "vuestorefront:StoreDocument"
+          ],
+          "lastVisitedKey": "StoreSetItemKey",
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2022-11-15T04:24:09.356+01:00",
+      "updatedBy": "admin",
+      "updatedAt": "2022-11-15T04:25:46.255+01:00",
+      "id": "StoreSetFieldGroup"
+    }
+  }
+]

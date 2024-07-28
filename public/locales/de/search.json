@@ -1,0 +1,22 @@
+{
+  "products": "produkte",
+  "suggestions": "vorschläge",
+  "content": "Inhalte",
+  "search-keyword-not-provided": "Suchbegriff nicht angegeben!",
+  "related-search": "Thematische Links",
+  "category-not-provided": "Kategorie nicht angegeben!",
+  "discovery-api-request-response": "Anfrage/Antwort der Discovery-API",
+  "request": "Anfrage",
+  "response": "Antwort",
+  "endpoint": "Endpunkt",
+  "search-parameters": "Suchparameter",
+  "category": "kategorie",
+  "search": "suchen",
+  "widget": "widget",
+  "search-for": "Auf der Suche nach...",
+  "no-products-found": "Keine Produkte gefunden!",
+  "start-over": "Von vorn anfangen",
+  "no-group": "Ergebnisse ohne Gruppierungsangabe",
+  "group-by-not-provided": "Gruppieren nach nicht vorgesehen!",
+  "feature-product": "Feature-Produkt"
+}

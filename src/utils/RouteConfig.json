@@ -1,0 +1,6 @@
+{
+  "search": "/search",
+  "product": "/products",
+  "article": "/articles",
+  "order": "/orders"
+}

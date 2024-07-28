@@ -1,0 +1,55 @@
+{
+  "name": "item-alignment-options",
+  "displayName": "item-alignment-options",
+  "id": "options.alignment.items",
+  "path": "/content/documents/administration/component-configuration/shared/item-alignment-options",
+  "keys": [
+    {
+      "name": "baseline",
+      "description": null
+    },
+    {
+      "name": "center",
+      "description": null
+    },
+    {
+      "name": "end",
+      "description": null
+    },
+    {
+      "name": "start",
+      "description": null
+    },
+    {
+      "name": "stretch",
+      "description": null
+    }
+  ],
+  "valueSets": [
+    {
+      "messages": [
+        {
+          "key": "baseline",
+          "value": "baseline"
+        },
+        {
+          "key": "center",
+          "value": "center"
+        },
+        {
+          "key": "end",
+          "value": "end"
+        },
+        {
+          "key": "start",
+          "value": "start"
+        },
+        {
+          "key": "stretch",
+          "value": "stretch"
+        }
+      ],
+      "name": "DEFAULT"
+    }
+  ]
+}

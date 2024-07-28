@@ -1,0 +1,111 @@
+[
+  {
+    "type": "pageFolder",
+    "path": "/content/documents/pacific-bazaar/pages",
+    "displayName": "pages",
+    "locale": "en_US_pacific-bazaar",
+    "channel": "pacific-bazaar",
+    "allowedDocumentTypes": [
+      "demoSeoPage"
+    ],
+    "allowedFolderTypes": [
+      "demoSeoPage"
+    ]
+  },
+  {
+    "type": "folder",
+    "path": "/content/documents/pacific-bazaar/articles",
+    "displayName": "Articles",
+    "locale": "en_US_pacific-bazaar",
+    "allowedDocumentTypes": [
+      "demoArticle"
+    ],
+    "allowedFolderTypes": [
+      "demoArticle"
+    ]
+  },
+  {
+    "type": "folder",
+    "path": "/content/documents/pacific-bazaar/authors",
+    "displayName": "Authors",
+    "locale": "en_US_pacific-bazaar",
+    "allowedDocumentTypes": [
+      "demoAuthor"
+    ],
+    "allowedFolderTypes": [
+      "demoAuthor"
+    ]
+  },
+  {
+    "type": "folder",
+    "path": "/content/documents/pacific-bazaar/banners",
+    "displayName": "Banners",
+    "locale": "en_US_pacific-bazaar",
+    "allowedDocumentTypes": [
+      "demoBanner"
+    ],
+    "allowedFolderTypes": [
+      "demoBanner"
+    ]
+  },
+  {
+    "type": "folder",
+    "path": "/content/documents/pacific-bazaar/content",
+    "displayName": "Content",
+    "locale": "en_US_pacific-bazaar",
+    "allowedDocumentTypes": [
+      "demoContent"
+    ],
+    "allowedFolderTypes": [
+      "demoContent"
+    ]
+  },
+  {
+    "type": "folder",
+    "path": "/content/documents/pacific-bazaar/guided-selling",
+    "displayName": "Guided Selling",
+    "locale": "en_US_pacific-bazaar",
+    "allowedDocumentTypes": [
+      "demoGuidedSellingFlow"
+    ],
+    "allowedFolderTypes": [
+      "demoGuidedSellingStep"
+    ]
+  },
+  {
+    "type": "folder",
+    "path": "/content/documents/pacific-bazaar/product-showcases",
+    "displayName": "Product Showcases",
+    "locale": "en_US_pacific-bazaar",
+    "allowedDocumentTypes": [
+      "demoProductShowcase"
+    ],
+    "allowedFolderTypes": [
+      "demoProductShowcase"
+    ]
+  },
+  {
+    "type": "folder",
+    "path": "/content/documents/pacific-bazaar/products",
+    "displayName": "Products",
+    "locale": "en_US_pacific-bazaar",
+    "allowedDocumentTypes": [
+      "demoProductDecorator"
+    ],
+    "allowedFolderTypes": [
+      "demoProductDecorator"
+    ]
+  },
+  {
+    "type": "folder",
+    "path": "/content/documents/pacific-bazaar/videos",
+    "displayName": "Videos",
+    "locale": "en_US_pacific-bazaar",
+    "allowedDocumentTypes": [
+      "demoVideo"
+    ],
+    "allowedFolderTypes": [
+      "demoVideo"
+    ]
+  }
+]

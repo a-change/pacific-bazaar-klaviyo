@@ -1,0 +1,30 @@
+{
+  "imageListConfigs": {
+    "regularGrid6": [
+      {
+        "rows": 1,
+        "cols": 2
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 2
+      }
+    ]
+  }
+}

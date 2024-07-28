@@ -1,0 +1,26 @@
+[
+  {
+    "name": "demo",
+    "displayName": "Demo",
+    "parameters": [
+      "channelConfigFile",
+      "channelThemeFile"
+    ]
+  },
+  {
+    "name": "commerce",
+    "displayName": "Commerce",
+    "parameters": [
+      "defaultConnector",
+      "graphql_baseurl"
+    ]
+  },
+  {
+    "name": "general",
+    "displayName": "General",
+    "parameters": [
+      "externalLocale",
+      "spaUrl"
+    ]
+  }
+]

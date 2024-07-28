@@ -1,0 +1,601 @@
+[
+  {
+    "name": "base",
+    "label": null,
+    "description": null,
+    "parameters": {},
+    "type": "abstract",
+    "extends": null,
+    "components": [
+      {
+        "name": "menu",
+        "label": null,
+        "description": null,
+        "parameters": {
+          "selectedMenu": "on",
+          "menu": "main",
+          "level": "2"
+        },
+        "xtype": null,
+        "definition": "base/menu",
+        "components": [],
+        "type": "static"
+      },
+      {
+        "name": "main",
+        "label": null,
+        "description": null,
+        "parameters": {},
+        "xtype": null,
+        "definition": null,
+        "components": [],
+        "type": "static"
+      }
+    ]
+  },
+  {
+    "name": "pacific-base",
+    "label": null,
+    "description": null,
+    "parameters": {},
+    "type": "abstract",
+    "extends": null,
+    "components": [
+      {
+        "name": "header",
+        "label": null,
+        "description": null,
+        "parameters": {},
+        "xtype": null,
+        "definition": null,
+        "components": [
+          {
+            "name": "row1__col1",
+            "label": "Header Row_1 Col_1",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          },
+          {
+            "name": "row1__col2",
+            "label": "Header Row_1 Col_2",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          },
+          {
+            "name": "row1__col3",
+            "label": "Header Row_1 Col_3",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          },
+          {
+            "name": "row2__col3",
+            "label": "Header Row_2 Col_3",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          },
+          {
+            "name": "row3__col1",
+            "label": "Header Row_3 Col_1",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          },
+          {
+            "name": "row3__col2",
+            "label": "Header Row_3 Col_2",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          },
+          {
+            "name": "row3__col3",
+            "label": "Header Row_3 Col_3",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          },
+          {
+            "name": "row2__col2",
+            "label": "Header Row_2 Col_2",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          },
+          {
+            "name": "row2__col1",
+            "label": "Header Row_2 Col_1",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          }
+        ],
+        "type": "static"
+      },
+      {
+        "name": "footer",
+        "label": null,
+        "description": null,
+        "parameters": {},
+        "xtype": null,
+        "definition": null,
+        "components": [
+          {
+            "name": "row1__col1",
+            "label": "Footer Row_1 Col_1",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          },
+          {
+            "name": "row1__col2",
+            "label": "Footer Row_1 Col_2",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          },
+          {
+            "name": "row1__col3",
+            "label": "Footer Row_1 Col_3",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          },
+          {
+            "name": "row2__col1",
+            "label": "Footer Row_2 Col_1",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          },
+          {
+            "name": "row2__col2",
+            "label": "Footer Row_2 Col_2",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          },
+          {
+            "name": "row2__col3",
+            "label": "Footer Row_2 Col_3",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          },
+          {
+            "name": "row3__col1",
+            "label": "Footer Row_3 Col_1",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          },
+          {
+            "name": "row3__col2",
+            "label": "Footer Row_3 Col_2",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          },
+          {
+            "name": "row3__col3",
+            "label": "Footer Row_3 Col_3",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          }
+        ],
+        "type": "static"
+      }
+    ]
+  },
+  {
+    "name": "single-column",
+    "label": "Single-Column Layout",
+    "description": null,
+    "parameters": {},
+    "type": "xpage",
+    "extends": "pacific-base",
+    "components": [
+      {
+        "name": "main",
+        "label": null,
+        "description": null,
+        "parameters": {},
+        "xtype": null,
+        "definition": null,
+        "components": [
+          {
+            "name": "container",
+            "label": "Main",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          }
+        ],
+        "type": "static"
+      }
+    ]
+  },
+  {
+    "name": "two-column-left",
+    "label": "Two-Column Layout (Left)",
+    "description": null,
+    "parameters": {},
+    "type": "xpage",
+    "extends": "pacific-base",
+    "components": [
+      {
+        "name": "left",
+        "label": null,
+        "description": null,
+        "parameters": {},
+        "xtype": null,
+        "definition": null,
+        "components": [
+          {
+            "name": "container",
+            "label": "Left",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          }
+        ],
+        "type": "static"
+      },
+      {
+        "name": "main",
+        "label": null,
+        "description": null,
+        "parameters": {},
+        "xtype": null,
+        "definition": null,
+        "components": [
+          {
+            "name": "container",
+            "label": "Main",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          }
+        ],
+        "type": "static"
+      }
+    ]
+  },
+  {
+    "name": "two-column-right",
+    "label": "Two-Column Layout (Right)",
+    "description": null,
+    "parameters": {},
+    "type": "xpage",
+    "extends": "pacific-base",
+    "components": [
+      {
+        "name": "main",
+        "label": null,
+        "description": null,
+        "parameters": {},
+        "xtype": null,
+        "definition": null,
+        "components": [
+          {
+            "name": "container",
+            "label": "Main",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          }
+        ],
+        "type": "static"
+      },
+      {
+        "name": "right",
+        "label": null,
+        "description": null,
+        "parameters": {},
+        "xtype": null,
+        "definition": null,
+        "components": [
+          {
+            "name": "container",
+            "label": "Right",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          }
+        ],
+        "type": "static"
+      }
+    ]
+  },
+  {
+    "name": "product-detail",
+    "label": "Product Detail",
+    "description": null,
+    "parameters": {},
+    "type": "page",
+    "extends": "pacific-base",
+    "components": [
+      {
+        "name": "main",
+        "label": null,
+        "description": null,
+        "parameters": {},
+        "xtype": null,
+        "definition": null,
+        "components": [
+          {
+            "name": "middle",
+            "label": "Middle",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          },
+          {
+            "name": "bottom",
+            "label": "Bottom",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          }
+        ],
+        "type": "static"
+      }
+    ]
+  },
+  {
+    "name": "category-detail",
+    "label": "Category Detail",
+    "description": null,
+    "parameters": {},
+    "type": "page",
+    "extends": "pacific-base",
+    "components": [
+      {
+        "name": "main",
+        "label": null,
+        "description": null,
+        "parameters": {},
+        "xtype": null,
+        "definition": null,
+        "components": [
+          {
+            "name": "container",
+            "label": "Main",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          }
+        ],
+        "type": "static"
+      }
+    ]
+  },
+  {
+    "name": "article-detail",
+    "label": "Article Detail",
+    "description": null,
+    "parameters": {},
+    "type": "page",
+    "extends": "pacific-base",
+    "components": [
+      {
+        "name": "main",
+        "label": null,
+        "description": null,
+        "parameters": {},
+        "xtype": null,
+        "definition": null,
+        "components": [
+          {
+            "name": "container",
+            "label": "Main",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          }
+        ],
+        "type": "static"
+      }
+    ]
+  },
+  {
+    "name": "author",
+    "label": "Author",
+    "description": null,
+    "parameters": {},
+    "type": "page",
+    "extends": "pacific-base",
+    "components": [
+      {
+        "name": "main",
+        "label": null,
+        "description": null,
+        "parameters": {},
+        "xtype": null,
+        "definition": null,
+        "components": [
+          {
+            "name": "container",
+            "label": "Main",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          }
+        ],
+        "type": "static"
+      }
+    ]
+  },
+  {
+    "name": "order-detail",
+    "label": "Order Detail",
+    "description": null,
+    "parameters": {},
+    "type": "page",
+    "extends": "pacific-base",
+    "components": [
+      {
+        "name": "main",
+        "label": null,
+        "description": null,
+        "parameters": {},
+        "xtype": null,
+        "definition": null,
+        "components": [
+          {
+            "name": "container",
+            "label": "Main",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          }
+        ],
+        "type": "static"
+      }
+    ]
+  },
+  {
+    "name": "search-banner",
+    "label": "Search Banner",
+    "description": null,
+    "parameters": {},
+    "type": "page",
+    "extends": "pacific-base",
+    "components": [
+      {
+        "name": "main",
+        "label": null,
+        "description": null,
+        "parameters": {},
+        "xtype": null,
+        "definition": null,
+        "components": [
+          {
+            "name": "container",
+            "label": "Main",
+            "description": null,
+            "parameters": {},
+            "xtype": "hst.vbox",
+            "type": "managed"
+          }
+        ],
+        "type": "static"
+      }
+    ]
+  },
+  {
+    "name": "grid-layout",
+    "label": "Grid Layout",
+    "description": null,
+    "parameters": {
+      "alignContent": "start",
+      "gridAutoColumns": "1fr",
+      "justifyItems": "stretch",
+      "gridAutoFlow": "column",
+      "alignItems": "stretch",
+      "columnGap": "1rem",
+      "gridTemplateColumns": "{ \"xs\": \"repeat(4, 1fr)\", \"sm\": \"repeat(8, 1fr)\", \"md\": \"repeat(12, 1fr)\", \"lg\": \"repeat(12, 1fr)\", \"xl\": \"repeat(16,1fr)'\"}",
+      "display": "grid",
+      "rowGap": "1rem",
+      "gridTemplateAreas": "null",
+      "justifyContent": "start"
+    },
+    "type": "xpage",
+    "extends": "pacific-base",
+    "components": [
+      {
+        "name": "c-1",
+        "label": "Container 1",
+        "description": null,
+        "parameters": {
+          "gridColumnStart": "{\"xs\":\"1 / span 4\",\"sm\":\"1 / span 8\",\"md\":\"1 / span 12\",\"lg\":\"1 / span 12\",\"xl\":\"1 / span 16\"}",
+          "gridRowStart": "{\"xs\":\"1 / 2\",\"sm\":\"1 / 2\",\"md\":\"1 / 2\",\"lg\":\"1 / 2\",\"xl\":\"1 / 2\"}",
+          "gridArea": "c-1"
+        },
+        "xtype": "hst.nomarkup",
+        "type": "managed"
+      },
+      {
+        "name": "c-2",
+        "label": "Container 2",
+        "description": null,
+        "parameters": {
+          "gridColumnStart": "{\"xs\":\"1 / span 4\",\"sm\":\"1 / span 8\",\"md\":\"1 / span 3\",\"lg\":\"1 / span 3\",\"xl\":\"1 / span 4\"}",
+          "gridRowStart": "{\"xs\":\"3 / 4\",\"sm\":\"3 / 4\",\"md\":\"2 / 3\",\"lg\":\"2 / 3\",\"xl\":\"2 / 3\"}",
+          "gridArea": "c-2"
+        },
+        "xtype": "hst.nomarkup",
+        "type": "managed"
+      },
+      {
+        "name": "c-3",
+        "label": "Container 3",
+        "description": null,
+        "parameters": {
+          "gridColumnStart": "{\"xs\":\"1 / span 4\",\"sm\":\"1 / span 8\",\"md\":\"4 / span 6\",\"lg\":\"4 / span 6\",\"xl\":\"5 / span 8\"}",
+          "gridRowStart": "{\"xs\":\"2 / 3\",\"sm\":\"2 / 3\",\"md\":\"2 / 3\",\"lg\":\"2 / 3\",\"xl\":\"2 / 3\"}",
+          "gridArea": "c-3"
+        },
+        "xtype": "hst.nomarkup",
+        "type": "managed"
+      },
+      {
+        "name": "c-4",
+        "label": "Container 4",
+        "description": null,
+        "parameters": {
+          "gridColumnStart": "{\"xs\":\"1 / span 4\",\"sm\":\"5 / span 4\",\"md\":\"10 / span 3\",\"lg\":\"10 / span 3\",\"xl\":\"13 / span 4\"}",
+          "gridRowStart": "{\"xs\":\"4 / 5\",\"sm\":\"3 / 4\",\"md\":\"2 / 3\",\"lg\":\"2 / 3\",\"xl\":\"2 / 3\"}",
+          "gridArea": "c-4"
+        },
+        "xtype": "hst.nomarkup",
+        "type": "managed"
+      },
+      {
+        "name": "c-5",
+        "label": "Container 5",
+        "description": null,
+        "parameters": {
+          "gridColumnStart": "{\"xs\":\"1 / span 4\",\"sm\":\"1 / span 8\",\"md\":\"1 / span 12\",\"lg\":\"1 / span 12\",\"xl\":\"1 / span 16\"}",
+          "gridRowStart": "{\"xs\":\"5 / 6\",\"sm\":\"4 / 5\",\"md\":\"3 / 4\",\"lg\":\"3 / 4\",\"xl\":\"3 / 4\"}",
+          "gridArea": "c-5"
+        },
+        "xtype": "hst.nomarkup",
+        "type": "managed"
+      }
+    ]
+  }
+]

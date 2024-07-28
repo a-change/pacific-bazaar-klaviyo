@@ -1,0 +1,22 @@
+{
+  "products": "des produits",
+  "suggestions": "suggestions",
+  "content": "contenu",
+  "search-keyword-not-provided": "Mot-clé de recherche non fourni!",
+  "related-search": "Liens thématiques",
+  "category-not-provided": "Catégorie non fournie !",
+  "discovery-api-request-response": "Demande/Réponse de l'API de découverte",
+  "request": "Demande",
+  "response": "Réponse",
+  "endpoint": "Point de terminaison",
+  "search-parameters": "Paramètres de recherche",
+  "category": "catégorie",
+  "search": "recherche",
+  "widget": "widget",
+  "search-for": "À la recherche de...",
+  "no-products-found": "Aucun produit trouvé!",
+  "start-over": "Recommencer",
+  "no-group": "Résultats sans regroupement spécifié",
+  "group-by-not-provided": "Groupe par non fourni!",
+  "feature-product": "Produit phare"
+}

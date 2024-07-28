@@ -1,0 +1,107 @@
+[
+  {
+    "name": "channelConfigFile",
+    "valueType": "string",
+    "required": true,
+    "hidden": false,
+    "overlay": false,
+    "defaultValue": "",
+    "displayName": "Channel Configuration File",
+    "system": false,
+    "config": {
+      "pickerConfiguration": "cms-pickers/documents-only",
+      "pickerInitialPath": "/content/documents/administration/channel-configurations",
+      "pickerRememberLastVisited": true,
+      "pickerSelectableNodeTypes": [
+        "resourcebundle"
+      ],
+      "relative": false,
+      "pickerRootPath": "/content/documents/administration/channel-configurations",
+      "enableUpload": false,
+      "type": "contentpath"
+    }
+  },
+  {
+    "name": "channelThemeFile",
+    "valueType": "string",
+    "required": true,
+    "hidden": false,
+    "overlay": false,
+    "defaultValue": "",
+    "displayName": "Channel Theme File",
+    "system": false,
+    "config": {
+      "pickerConfiguration": "cms-pickers/assets",
+      "pickerInitialPath": "/content/assets/themes",
+      "pickerRememberLastVisited": true,
+      "pickerSelectableNodeTypes": [],
+      "relative": false,
+      "pickerRootPath": "/content/assets/themes",
+      "enableUpload": false,
+      "type": "contentpath"
+    }
+  },
+  {
+    "name": "defaultConnector",
+    "valueType": "string",
+    "required": false,
+    "hidden": false,
+    "overlay": false,
+    "defaultValue": "brsm",
+    "displayName": "Default Commerce Connector",
+    "system": false,
+    "config": {
+      "value": [],
+      "structuredValues": [
+        {
+          "key": "commercetools",
+          "label": "Commercetools"
+        },
+        {
+          "key": "sap",
+          "label": "SAP"
+        },
+        {
+          "key": "brsm",
+          "label": "BrSM"
+        }
+      ],
+      "valueListProvider": null,
+      "sourceId": null,
+      "type": "dropdown"
+    }
+  },
+  {
+    "name": "externalLocale",
+    "valueType": "string",
+    "required": true,
+    "hidden": false,
+    "overlay": false,
+    "defaultValue": "en_US",
+    "displayName": "External locale",
+    "system": false,
+    "config": null
+  },
+  {
+    "name": "graphql_baseurl",
+    "valueType": "string",
+    "required": true,
+    "hidden": false,
+    "overlay": false,
+    "defaultValue": "https://graphql-commerce.bloomreach.io",
+    "displayName": "GraphQL Base URL",
+    "system": false,
+    "config": null
+  },
+  {
+    "name": "spaUrl",
+    "valueType": "string",
+    "required": true,
+    "hidden": false,
+    "overlay": false,
+    "defaultValue": "",
+    "displayName": "spaUrl",
+    "system": false,
+    "config": null
+  }
+]

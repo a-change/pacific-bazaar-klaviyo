@@ -1,0 +1,165 @@
+{
+  "layouts": {
+    "topbar": {
+      "bgColor": "background.paper",
+      "borderBottom": "",
+      "borderColor": "",
+      "color": "text.primary",
+      "elevation": 0,
+      "fontSize": 12,
+      "height": 40,
+      "maxHeight": 80,
+      "maxWidth": "lg",
+      "mt": 0,
+      "mb": 0,
+      "pt": 0,
+      "pb": 0,
+      "show": false
+    },
+    "headerbar": {
+      "bgColor": "background.default",
+      "borderBottom": "",
+      "borderColor": "",
+      "color": "text.disabled",
+      "elevation": 0,
+      "height": 80,
+      "maxWidth": "lg",
+      "mobileHeight": 64,
+      "mt": 0,
+      "mb": 0,
+      "pt": 0,
+      "pb": 0,
+      "show": true
+    },
+    "navbar": {
+      "bgColor": "background.default",
+      "borderBottom": "solid 1px",
+      "borderColor": "grey.700",
+      "color": "text.primary",
+      "elevation": 5,
+      "height": 60,
+      "maxWidth": "lg",
+      "mt": 0,
+      "mb": 1,
+      "pt": 2,
+      "pb": 3,
+      "show": true
+    },
+    "footer": {
+      "bgColor": "background.default",
+      "borderColor": "grey.700",
+      "borderTop": "solid 1px",
+      "color": "text.primary",
+      "maxWidth": "lg",
+      "mt": 1,
+      "mb": 0,
+      "pt": 4,
+      "pb": 0,
+      "show": true
+    },
+    "mobilenavbar": {
+      "bgColor": "background.paper",
+      "color": "text.primary",
+      "fontSize": 12,
+      "maxWidth": "sm",
+      "minHeight": 60,
+      "mt": 1,
+      "mb": 0,
+      "pt": 0,
+      "pb": 0,
+      "show": true
+    }
+  },
+  "themes": {
+    "dark": {
+      "primary": {
+        "main": "#ff2442"
+      },
+      "secondary": {
+        "main": "#343d4f"
+      },
+      "error": {
+        "main": "#de4437"
+      },
+      "info": {
+        "main": "#6c757d"
+      },
+      "success": {
+        "main": "#28a745"
+      },
+      "warning": {
+        "main": "#ffc107"
+      },
+      "background": {
+        "default": "#212121",
+        "paper": "#212121"
+      },
+      "text": {
+        "primary": "#fff",
+        "secondary": "#e0e0e0",
+        "disabled": "#9e9e9e"
+      }
+    },
+    "light": {
+      "primary": {
+        "main": "#ff2442"
+      },
+      "secondary": {
+        "main": "#343d4f"
+      },
+      "error": {
+        "main": "#de4437"
+      },
+      "info": {
+        "main": "#6c757d"
+      },
+      "success": {
+        "main": "#28a745"
+      },
+      "warning": {
+        "main": "#ffc107"
+      },
+      "background": {
+        "default": "#fff",
+        "paper": "#f5f5f5"
+      },
+      "text": {
+        "primary": "#212121",
+        "secondary": "#333",
+        "disabled": "#9e9e9e"
+      }
+    },
+    "palette": {
+      "primary": {
+        "main": "#ff2442"
+      },
+      "secondary": {
+        "main": "#343d4f"
+      },
+      "error": {
+        "main": "#de4437"
+      },
+      "info": {
+        "main": "#6c757d"
+      },
+      "success": {
+        "main": "#28a745"
+      },
+      "warning": {
+        "main": "#ffc107"
+      }
+    },
+    "typography": {
+      "fontFamily": "Poppins, Helvetica, Arial, sans-serif"
+    },
+    "breakpoints": {
+      "values": {
+        "xs": 0,
+        "sm": 600,
+        "md": 900,
+        "lg": 1200,
+        "xl": 1536
+      }
+    }
+  }
+}

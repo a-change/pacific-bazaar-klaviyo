@@ -1,0 +1,37 @@
+{
+  "sorting": [
+    {
+      "key": "relevance",
+      "icon": "star-of-life",
+      "text": "Relevance",
+      "value": ""
+    },
+    {
+      "key": "title_asc",
+      "icon": "sort-alpha-up",
+      "text": "Name (A - Z)",
+      "value": "title asc"
+    },
+    {
+      "key": "title_desc",
+      "icon": "sort-alpha-down",
+      "text": "Name (Z - A)",
+      "value": "title desc"
+    }
+  ],
+  "facet": {
+    "excluded": [],
+    "numOfDisplayedFacetItems": 4,
+    "numOfOpenedFacets": 1
+  },
+  "defaultPageSize": 12,
+  "itemsPerRow": 2,
+  "itemsPerRowOptions": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24
+  ]
+}

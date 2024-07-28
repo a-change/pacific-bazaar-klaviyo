@@ -1,0 +1,1023 @@
+[
+  {
+    "name": "sapspartacus:bannercompound",
+    "enabled": false,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Banner field group",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "content",
+        "type": "RichText",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Content",
+          "hint": "",
+          "layoutColumn": 1,
+          "ckEditorAppendedJson": null,
+          "ckEditorOverlayedJson": null,
+          "imagepickerBasePath": null,
+          "imagepickerType": "images",
+          "imagepickerNodetypes": null,
+          "imagepickerLastVisitedEnabled": null,
+          "imagepickerLastVisitedGroupKey": "ckeditor-imagepicker",
+          "imagepickerLastVisitedNodetypes": [
+            "gallery"
+          ],
+          "imagepickerPreferredImageVariant": "original",
+          "linkpickerBasePath": null,
+          "linkpickerType": "documents",
+          "linkpickerNodetypes": null,
+          "linkpickerLastVisitedEnabled": null,
+          "linkpickerLastVisitedGroupKey": "ckeditor-linkpicker",
+          "linkpickerLastVisitedNodetypes": [
+            "folder"
+          ],
+          "linkPickerLanguageContextAware": null,
+          "linkPickerOpenInNewWindowEnabled": true,
+          "includeImageVariants": null,
+          "excludeImageVariants": null
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "image",
+        "type": "Link",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Image",
+          "hint": "",
+          "layoutColumn": 1,
+          "uploadEnabled": true,
+          "displayType": "ImageLink",
+          "lookupFolderTypes": null,
+          "lastVisitedKey": "gallerypicker-imagelink",
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      },
+      {
+        "name": "link",
+        "type": "Link",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Link",
+          "hint": "",
+          "layoutColumn": 1,
+          "lookupFolderPath": null,
+          "lastVisitedNodetypes": null,
+          "languageContextAware": true,
+          "pickerType": null,
+          "displayType": "AnyLink",
+          "lookupFolderTypes": null,
+          "lastVisitedKey": null,
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      },
+      {
+        "name": "styleClasses",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Style Classes",
+          "hint": "This can contain a \"list\" of space separated style classes.",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2020-10-01T17:00:00+01:00",
+      "updatedBy": "admin",
+      "updatedAt": "2020-10-01T17:00:00+01:00",
+      "id": "bannercompound"
+    }
+  },
+  {
+    "name": "sapspartacus:banner",
+    "enabled": false,
+    "type": "Document",
+    "presentation": {
+      "displayName": "Banner",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "content",
+        "type": "RichText",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Content",
+          "hint": "",
+          "layoutColumn": 1,
+          "ckEditorAppendedJson": null,
+          "ckEditorOverlayedJson": null,
+          "imagepickerBasePath": null,
+          "imagepickerType": "images",
+          "imagepickerNodetypes": null,
+          "imagepickerLastVisitedEnabled": null,
+          "imagepickerLastVisitedGroupKey": "ckeditor-imagepicker",
+          "imagepickerLastVisitedNodetypes": [
+            "gallery"
+          ],
+          "imagepickerPreferredImageVariant": "original",
+          "linkpickerBasePath": null,
+          "linkpickerType": "documents",
+          "linkpickerNodetypes": null,
+          "linkpickerLastVisitedEnabled": null,
+          "linkpickerLastVisitedGroupKey": "ckeditor-linkpicker",
+          "linkpickerLastVisitedNodetypes": [
+            "folder"
+          ],
+          "linkPickerLanguageContextAware": null,
+          "linkPickerOpenInNewWindowEnabled": true,
+          "includeImageVariants": null,
+          "excludeImageVariants": null
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "image",
+        "type": "Link",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Image",
+          "hint": "",
+          "layoutColumn": 1,
+          "uploadEnabled": true,
+          "displayType": "ImageLink",
+          "lookupFolderTypes": null,
+          "lastVisitedKey": "gallerypicker-imagelink",
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      },
+      {
+        "name": "cta",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "CTA",
+          "hint": "",
+          "layoutColumn": 2,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "link",
+        "type": "Link",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Link",
+          "hint": "",
+          "layoutColumn": 2,
+          "lookupFolderPath": null,
+          "lastVisitedNodetypes": null,
+          "languageContextAware": true,
+          "pickerType": null,
+          "displayType": "AnyLink",
+          "lookupFolderTypes": null,
+          "lastVisitedKey": null,
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2020-10-01T17:00:00+01:00",
+      "updatedBy": "admin",
+      "updatedAt": "2020-10-01T17:00:00+01:00",
+      "id": "banner"
+    }
+  },
+  {
+    "name": "sapspartacus:CategoryHighlight",
+    "enabled": false,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Category highlight",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "CommerceCategoryCompound",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": true,
+        "presentation": {
+          "caption": "Category",
+          "hint": "",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "categoryid": [
+                ""
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "sapspartacus:CommerceCategoryCompound"
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-08-02T11:49:26.655+02:00",
+      "updatedBy": "admin",
+      "updatedAt": "2021-08-02T11:52:57.441+02:00",
+      "id": "CategoryHighlight"
+    }
+  },
+  {
+    "name": "sapspartacus:CommerceCategoryCompound",
+    "enabled": false,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Commerce category",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "categoryid",
+        "type": "OpenUiExtension",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Category",
+          "hint": "",
+          "layoutColumn": 1,
+          "extensionType": "sapSpartacusCommerceCategoryPicker"
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2020-12-09T01:13:05.507+01:00",
+      "updatedBy": "admin",
+      "updatedAt": "2020-12-09T01:13:05.507+01:00",
+      "id": "CommerceCategoryCompound"
+    }
+  },
+  {
+    "name": "sapspartacus:CommerceProductCompound",
+    "enabled": false,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Commerce product",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "productid",
+        "type": "OpenUiExtension",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Product",
+          "hint": "",
+          "layoutColumn": 1,
+          "extensionType": "sapSpartacusCommerceProductPicker"
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "variantid",
+        "type": "OpenUiExtension",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Product Variant",
+          "hint": "",
+          "layoutColumn": 1,
+          "extensionType": "sapSpartacusCommerceProductVariantPicker"
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2020-12-09T01:13:05.507+01:00",
+      "updatedBy": "admin",
+      "updatedAt": "2020-12-09T01:13:05.507+01:00",
+      "id": "CommerceProductCompound"
+    }
+  },
+  {
+    "name": "sapspartacus:content",
+    "enabled": false,
+    "type": "Document",
+    "presentation": {
+      "displayName": "Content",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "introduction",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Introduction",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Text"
+        },
+        "validations": {
+          "maxRow": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "content",
+        "type": "RichText",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Content",
+          "hint": "",
+          "layoutColumn": 1,
+          "ckEditorAppendedJson": null,
+          "ckEditorOverlayedJson": null,
+          "imagepickerBasePath": null,
+          "imagepickerType": "images",
+          "imagepickerNodetypes": null,
+          "imagepickerLastVisitedEnabled": null,
+          "imagepickerLastVisitedGroupKey": "ckeditor-imagepicker",
+          "imagepickerLastVisitedNodetypes": [
+            "gallery"
+          ],
+          "imagepickerPreferredImageVariant": "original",
+          "linkpickerBasePath": null,
+          "linkpickerType": "documents",
+          "linkpickerNodetypes": null,
+          "linkpickerLastVisitedEnabled": null,
+          "linkpickerLastVisitedGroupKey": "ckeditor-linkpicker",
+          "linkpickerLastVisitedNodetypes": [
+            "folder"
+          ],
+          "linkPickerLanguageContextAware": null,
+          "linkPickerOpenInNewWindowEnabled": true,
+          "includeImageVariants": null,
+          "excludeImageVariants": null
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "image",
+        "type": "Link",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Image",
+          "hint": "",
+          "layoutColumn": 2,
+          "uploadEnabled": true,
+          "displayType": "ImageLink",
+          "lookupFolderTypes": null,
+          "lastVisitedKey": "gallerypicker-imagelink",
+          "lastVisitedEnabled": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "/"
+        ]
+      },
+      {
+        "name": "date",
+        "type": "Date",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Publication Date",
+          "hint": "",
+          "layoutColumn": 2,
+          "timeSelectable": true
+        },
+        "validations": {},
+        "defaultValue": [
+          "2021-01-01T12:00:00Z"
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2020-10-01T17:00:00+01:00",
+      "updatedBy": "admin",
+      "updatedAt": "2020-10-01T17:00:00+01:00",
+      "id": "content"
+    }
+  },
+  {
+    "name": "sapspartacus:pathways",
+    "enabled": false,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Pathways & Recommendations",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "WidgetCompound",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Widget",
+          "hint": "",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "widgetalgo": [
+                ""
+              ],
+              "widgetid": [
+                ""
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "sapspartacus:WidgetCompound"
+      },
+      {
+        "name": "ProductCompound",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": true,
+        "presentation": {
+          "caption": "Product Reference",
+          "hint": "",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "productid": [
+                ""
+              ],
+              "variantid": [
+                ""
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "sapspartacus:CommerceProductCompound"
+      },
+      {
+        "name": "CategoryCompound",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Category Reference",
+          "hint": "",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "categoryid": [
+                ""
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "sapspartacus:CommerceCategoryCompound"
+      },
+      {
+        "name": "keyword",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Keyword",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-07-16T16:24:00.329+02:00",
+      "updatedBy": "admin",
+      "updatedAt": "2021-07-19T15:26:29.224+02:00",
+      "id": "pathways"
+    }
+  },
+  {
+    "name": "sapspartacus:ProductDetailTabsCompound",
+    "enabled": false,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Product details tabs",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "tabs",
+        "type": "SelectableString",
+        "required": true,
+        "multiple": true,
+        "presentation": {
+          "caption": "Tabs",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Dropdown",
+          "sortOrder": null,
+          "sortBy": null,
+          "showDefault": null
+        },
+        "validations": {
+          "inResourceBundle": null,
+          "inValues": [
+            {
+              "key": "ProductDetailsTabComponent",
+              "label": "Product Details"
+            },
+            {
+              "key": "ProductSpecsTabComponent",
+              "label": "Specs"
+            },
+            {
+              "key": "ProductReviewsTabComponent",
+              "label": "Reviews"
+            },
+            {
+              "key": "deliveryTab",
+              "label": "Shipping"
+            }
+          ]
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "shipping",
+        "type": "RichText",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Shipping instructions",
+          "hint": "",
+          "layoutColumn": 1,
+          "ckEditorAppendedJson": null,
+          "ckEditorOverlayedJson": null,
+          "imagepickerBasePath": null,
+          "imagepickerType": "images",
+          "imagepickerNodetypes": null,
+          "imagepickerLastVisitedEnabled": null,
+          "imagepickerLastVisitedGroupKey": "ckeditor-imagepicker",
+          "imagepickerLastVisitedNodetypes": [
+            "gallery"
+          ],
+          "imagepickerPreferredImageVariant": "original",
+          "linkpickerBasePath": null,
+          "linkpickerType": "documents",
+          "linkpickerNodetypes": null,
+          "linkpickerLastVisitedEnabled": null,
+          "linkpickerLastVisitedGroupKey": "ckeditor-linkpicker",
+          "linkpickerLastVisitedNodetypes": [
+            "folder"
+          ],
+          "linkPickerLanguageContextAware": null,
+          "linkPickerOpenInNewWindowEnabled": true,
+          "includeImageVariants": null,
+          "excludeImageVariants": null
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-10-14T21:18:43.596+02:00",
+      "updatedBy": "admin",
+      "updatedAt": "2021-10-15T20:15:08.472+02:00",
+      "id": "ProductDetailTabsCompound"
+    }
+  },
+  {
+    "name": "sapspartacus:productgrid",
+    "enabled": false,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Product grid",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "searchtype",
+        "type": "SelectableString",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Type",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Dropdown",
+          "sortOrder": null,
+          "sortBy": null,
+          "showDefault": null
+        },
+        "validations": {
+          "inResourceBundle": null,
+          "inValues": [
+            {
+              "key": "category",
+              "label": "Category"
+            },
+            {
+              "key": "search",
+              "label": "Search"
+            }
+          ]
+        },
+        "defaultValue": []
+      },
+      {
+        "name": "query",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Search Term",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "category",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Category",
+          "hint": "",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "categoryid": [
+                ""
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "sapspartacus:CommerceCategoryCompound"
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-08-02T16:40:31.55-04:00",
+      "updatedBy": "admin",
+      "updatedAt": "2021-08-02T16:49:16.971-04:00",
+      "id": "productgrid"
+    }
+  },
+  {
+    "name": "sapspartacus:ProductHighlight",
+    "enabled": false,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Product highlight",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "CommerceProductCompound",
+        "type": "FieldGroup",
+        "required": false,
+        "multiple": true,
+        "presentation": {
+          "caption": "Product",
+          "hint": "",
+          "layoutColumn": 1
+        },
+        "validations": {},
+        "defaultValue": [
+          {
+            "fields": {
+              "productid": [
+                ""
+              ],
+              "variantid": [
+                ""
+              ]
+            }
+          }
+        ],
+        "fieldGroupType": "sapspartacus:CommerceProductCompound"
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-07-30T11:49:26.655+02:00",
+      "updatedBy": "admin",
+      "updatedAt": "2021-07-30T11:52:57.441+02:00",
+      "id": "ProductHighlight"
+    }
+  },
+  {
+    "name": "sapspartacus:titleandtext",
+    "enabled": false,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Title and text",
+      "layout": "one-column"
+    },
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Title",
+          "hint": "",
+          "layoutColumn": 1,
+          "displayType": "Simple"
+        },
+        "validations": {
+          "maxLength": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "text",
+        "type": "RichText",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Text",
+          "hint": "",
+          "layoutColumn": 1,
+          "ckEditorAppendedJson": null,
+          "ckEditorOverlayedJson": null,
+          "imagepickerBasePath": null,
+          "imagepickerType": "images",
+          "imagepickerNodetypes": null,
+          "imagepickerLastVisitedEnabled": null,
+          "imagepickerLastVisitedGroupKey": "ckeditor-imagepicker",
+          "imagepickerLastVisitedNodetypes": [
+            "gallery"
+          ],
+          "imagepickerPreferredImageVariant": "original",
+          "linkpickerBasePath": null,
+          "linkpickerType": "documents",
+          "linkpickerNodetypes": null,
+          "linkpickerLastVisitedEnabled": null,
+          "linkpickerLastVisitedGroupKey": "ckeditor-linkpicker",
+          "linkpickerLastVisitedNodetypes": [
+            "folder"
+          ],
+          "linkPickerLanguageContextAware": null,
+          "linkPickerOpenInNewWindowEnabled": true,
+          "includeImageVariants": null,
+          "excludeImageVariants": null
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2021-05-27T15:13:01.199+02:00",
+      "updatedBy": "admin",
+      "updatedAt": "2021-05-27T15:14:11.487+02:00",
+      "id": "titleandtext"
+    }
+  },
+  {
+    "name": "sapspartacus:WidgetCompound",
+    "enabled": false,
+    "type": "FieldGroup",
+    "presentation": {
+      "displayName": "Widget",
+      "layout": "two-column"
+    },
+    "fields": [
+      {
+        "name": "widgetalgo",
+        "type": "SelectableString",
+        "required": false,
+        "multiple": false,
+        "presentation": {
+          "caption": "Widget Algorithm",
+          "hint": "",
+          "layoutColumn": 2,
+          "displayType": "Dropdown",
+          "sortOrder": null,
+          "sortBy": null,
+          "showDefault": null
+        },
+        "validations": {
+          "inResourceBundle": "brsm.widget.types",
+          "inValues": null
+        },
+        "defaultValue": [
+          ""
+        ]
+      },
+      {
+        "name": "widgetid",
+        "type": "OpenUiExtension",
+        "required": true,
+        "multiple": false,
+        "presentation": {
+          "caption": "Widget",
+          "hint": "",
+          "layoutColumn": 1,
+          "extensionType": "smWidgetPicker"
+        },
+        "validations": {},
+        "defaultValue": [
+          ""
+        ]
+      }
+    ],
+    "system": {
+      "createdBy": "admin",
+      "createdAt": "2020-12-09T01:13:05.507+01:00",
+      "updatedBy": "admin",
+      "updatedAt": "2020-12-09T01:13:05.507+01:00",
+      "id": "WidgetCompound"
+    }
+  }
+]

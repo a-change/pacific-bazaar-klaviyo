@@ -1,0 +1,31 @@
+{
+  "name": "sort-order-options",
+  "displayName": "sort-order-options",
+  "id": "options.sort.order",
+  "path": "/content/documents/administration/component-configuration/shared/sort-order-options",
+  "keys": [
+    {
+      "name": "asc",
+      "description": null
+    },
+    {
+      "name": "desc",
+      "description": null
+    }
+  ],
+  "valueSets": [
+    {
+      "messages": [
+        {
+          "key": "asc",
+          "value": "ascending"
+        },
+        {
+          "key": "desc",
+          "value": "descending"
+        }
+      ],
+      "name": "DEFAULT"
+    }
+  ]
+}

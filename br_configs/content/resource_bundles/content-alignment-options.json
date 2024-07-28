@@ -1,0 +1,63 @@
+{
+  "name": "content-alignment-options",
+  "displayName": "content-alignment-options",
+  "id": "options.content.alignment",
+  "path": "/content/documents/administration/component-configuration/shared/content-alignment-options",
+  "keys": [
+    {
+      "name": "center",
+      "description": null
+    },
+    {
+      "name": "end",
+      "description": null
+    },
+    {
+      "name": "space-around",
+      "description": null
+    },
+    {
+      "name": "space-between",
+      "description": null
+    },
+    {
+      "name": "start",
+      "description": null
+    },
+    {
+      "name": "stretch",
+      "description": null
+    }
+  ],
+  "valueSets": [
+    {
+      "messages": [
+        {
+          "key": "center",
+          "value": "center"
+        },
+        {
+          "key": "end",
+          "value": "end"
+        },
+        {
+          "key": "space-around",
+          "value": "space around"
+        },
+        {
+          "key": "space-between",
+          "value": "space between"
+        },
+        {
+          "key": "start",
+          "value": "start"
+        },
+        {
+          "key": "stretch",
+          "value": "stretch"
+        }
+      ],
+      "name": "DEFAULT"
+    }
+  ]
+}

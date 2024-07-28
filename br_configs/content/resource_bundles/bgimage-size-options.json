@@ -1,0 +1,95 @@
+{
+  "name": "bgimage-size-options",
+  "displayName": "bgimage-size-options",
+  "id": "options.bgimage.size",
+  "path": "/content/documents/administration/component-configuration/shared/bgimage-size-options",
+  "keys": [
+    {
+      "name": "contain",
+      "description": null
+    },
+    {
+      "name": "cover",
+      "description": null
+    },
+    {
+      "name": "h-100",
+      "description": null
+    },
+    {
+      "name": "h-25",
+      "description": null
+    },
+    {
+      "name": "h-50",
+      "description": null
+    },
+    {
+      "name": "h-75",
+      "description": null
+    },
+    {
+      "name": "w-100",
+      "description": null
+    },
+    {
+      "name": "w-25",
+      "description": null
+    },
+    {
+      "name": "w-50",
+      "description": null
+    },
+    {
+      "name": "w-75",
+      "description": null
+    }
+  ],
+  "valueSets": [
+    {
+      "messages": [
+        {
+          "key": "contain",
+          "value": "scale to fit"
+        },
+        {
+          "key": "cover",
+          "value": "scale to fill"
+        },
+        {
+          "key": "h-100",
+          "value": "scale [width: auto, height: 100%]"
+        },
+        {
+          "key": "h-25",
+          "value": "scale [width: auto, height: 25%]"
+        },
+        {
+          "key": "h-50",
+          "value": "scale [width: auto, height: 50%]"
+        },
+        {
+          "key": "h-75",
+          "value": "scale [width: auto, height: 75%]"
+        },
+        {
+          "key": "w-100",
+          "value": "scale [width: 100%, height: auto]"
+        },
+        {
+          "key": "w-25",
+          "value": "scale [width: 25%, height: auto]"
+        },
+        {
+          "key": "w-50",
+          "value": "scale [width: 50%, height: auto]"
+        },
+        {
+          "key": "w-75",
+          "value": "scale [width: 75%, height: auto]"
+        }
+      ],
+      "name": "DEFAULT"
+    }
+  ]
+}

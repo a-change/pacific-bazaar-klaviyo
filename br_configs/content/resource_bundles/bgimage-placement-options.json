@@ -1,0 +1,87 @@
+{
+  "name": "bgimage-placement-options",
+  "displayName": "bgimage-placement-options",
+  "id": "options.bgimage.placement",
+  "path": "/content/documents/administration/component-configuration/shared/bgimage-placement-options",
+  "keys": [
+    {
+      "name": "bottom",
+      "description": null
+    },
+    {
+      "name": "bottom-left",
+      "description": null
+    },
+    {
+      "name": "bottom-right",
+      "description": null
+    },
+    {
+      "name": "center",
+      "description": null
+    },
+    {
+      "name": "left",
+      "description": null
+    },
+    {
+      "name": "right",
+      "description": null
+    },
+    {
+      "name": "top",
+      "description": null
+    },
+    {
+      "name": "top-left",
+      "description": null
+    },
+    {
+      "name": "top-right",
+      "description": null
+    }
+  ],
+  "valueSets": [
+    {
+      "messages": [
+        {
+          "key": "bottom",
+          "value": "center bottom"
+        },
+        {
+          "key": "bottom-left",
+          "value": "left bottom"
+        },
+        {
+          "key": "bottom-right",
+          "value": "right bottom"
+        },
+        {
+          "key": "center",
+          "value": "center middle"
+        },
+        {
+          "key": "left",
+          "value": "left middle"
+        },
+        {
+          "key": "right",
+          "value": "right middle"
+        },
+        {
+          "key": "top",
+          "value": "center top"
+        },
+        {
+          "key": "top-left",
+          "value": "left top"
+        },
+        {
+          "key": "top-right",
+          "value": "right top"
+        }
+      ],
+      "name": "DEFAULT"
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "sorting": [
+    {
+      "key": "relevance",
+      "icon": "star-of-life",
+      "text": "Relevance",
+      "value": ""
+    },
+    {
+      "key": "sale_price_desc",
+      "icon": "sort-numeric-down",
+      "text": "Price (high - low)",
+      "value": "-purchasePrice"
+    },
+    {
+      "key": "sale_price_asc",
+      "icon": "sort-numeric-up",
+      "text": "Price (low - high)",
+      "value": "purchasePrice"
+    },
+    {
+      "key": "title_asc",
+      "icon": "sort-alpha-up",
+      "text": "Name (A - Z)",
+      "value": "displayName"
+    },
+    {
+      "key": "title_desc",
+      "icon": "sort-alpha-down",
+      "text": "Name (Z - A)",
+      "value": "-displayName"
+    }
+  ],
+  "facet": {
+    "excluded": [
+      "reviews_count",
+      "sts_stores_available",
+      "zprice",
+      "zsale_price"
+    ],
+    "numOfDisplayedFacetItems": 5,
+    "numOfOpenedFacets": 1
+  },
+  "defaultPageSize": 12,
+  "imageListConfigs": {
+    "regularGrid4": [
+      {
+        "rows": 2,
+        "cols": 2
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 2,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      }
+    ],
+    "regularGrid12": [
+      {
+        "rows": 2,
+        "cols": 2
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 2,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 3,
+        "cols": 3
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      }
+    ],
+    "fullScreenGrid12-0": [
+      {
+        "rows": 2,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 2,
+        "cols": 2
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      }
+    ],
+    "fullScreenGrid12-1": [
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 2,
+        "cols": 2
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 2,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      }
+    ],
+    "fullScreenGrid12-2": [
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 2,
+        "cols": 1
+      },
+      {
+        "rows": 2,
+        "cols": 2
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      }
+    ],
+    "fullScreenGrid12-col3": [
+      {
+        "rows": 2,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 2,
+        "cols": 2
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 2,
+        "cols": 1
+      },
+      {
+        "rows": 2,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      },
+      {
+        "rows": 1,
+        "cols": 1
+      }
+    ]
+  }
+}
